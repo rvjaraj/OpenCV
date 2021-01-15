@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/vinic/Documents/IAII/OpenCV/Cabecera.hpp
+iostream
+-
+cstdlib
+-
+cstring
+-
+
+C:/Users/vinic/Documents/IAII/OpenCV/Fuente.cpp
+Cabecera.hpp
+C:/Users/vinic/Documents/IAII/OpenCV/Cabecera.hpp
+
