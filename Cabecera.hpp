@@ -19,7 +19,9 @@ public:
 
     void saludar();
 
-    bool validarCedula(string = "0105452171");
+    bool validarCedula(string = "0105452172");
 
     Persona(string, string, string);
+    ~Persona();
 };
+
