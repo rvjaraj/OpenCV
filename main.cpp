@@ -11,6 +11,14 @@ int main(int arcg, char *argv[]) {
     persona.fibonacci();
     bool res = persona.validarCedula();
     cout << "Cedula: " << res << endl;
+    vector<string> res_v = persona.split("Hola;hola1;hola2;hola3", ';');
+    for (auto &i : res_v)
+        cout << i << endl;
+    persona.escribirArchivo();
+    res_v = persona.leerArchivo();
+    persona.leerarchivos();
+//    for (auto &i : res_v)
+//        cout << i << endl;
 //    Mat img=imread("../img.jpg");
 //    cout << img.cols << endl;
 //    if (img.empty()) {

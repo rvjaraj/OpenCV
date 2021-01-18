@@ -42,9 +42,49 @@ bool Persona::validarCedula(string ced) {
             suma += digito;
 
     }
-    suma = suma%10;
-    resta = (digito ==0)?suma:10-suma;
-    return (resta==digito);
+    suma = suma % 10;
+    resta = (digito == 0) ? suma : 10 - suma;
+    return (resta == digito);
+}
+
+vector<string> Persona::split(string cad, char sep) {
+    stringstream ss;
+    ss << cad;
+    vector<string> datos;
+    string token;
+    while ((getline(ss, token, sep))) {
+        datos.push_back(token);
+    }
+    return datos;
+}
+
+bool Persona::escribirArchivo(string cad) {
+    ofstream archivo(cad, ios::out);
+    for (double i = 0; i < M_PI; i += 0.1) {
+        archivo << "Valor: " << cos(i) << endl;
+    }
+    archivo.close();
+    return true;
+}
+
+vector<string> Persona::leerArchivo(string cad) {
+    ifstream archivo(cad, ios::in);
+    string liena;
+    vector<string> datos;
+    while ((getline(archivo, liena, '\n'))) {
+        datos.push_back(liena);
+    }
+    return datos;
+}
+
+void Persona::leerarchivos(string path) {
+    DIR *pDIR = opendir(path.c_str());
+    struct dirent *entry;
+
+    while ((entry = readdir(pDIR)) != NULL) {
+        cout << entry->d_name << endl;
+    }
+    closedir(pDIR);
 }
 
 Persona::~Persona() {
