@@ -95,7 +95,7 @@ int main(int argc, char *argv[]) {
     imshow("Gris", gris);
     imshow("Gris Ecualizada", imagenEcualizada);
 
-    waitKey(0);
+    //waitKey(0);
 
     destroyAllWindows();
 
@@ -117,8 +117,8 @@ int main(int argc, char *argv[]) {
 
     // Cómo manejar video
     //VideoCapture video("/dev/video33");
-    //VideoCapture video("OneMinute.mkv");
-    VideoCapture video(0);
+     VideoCapture video("../OneMinute.mkv");
+    //VideoCapture video(0);
     Mat anterior;
     Mat frameGris;
 
