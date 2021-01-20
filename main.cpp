@@ -19,13 +19,13 @@ int main(int arcg, char *argv[]) {
     persona.leerarchivos();
 //    for (auto &i : res_v)
 //        cout << i << endl;
-//    Mat img=imread("../img.jpg");
-//    cout << img.cols << endl;
-//    if (img.empty()) {
-//        cout << "Error" << endl;
-//        return -1;
-//    }
-//    imshow("img.jpg", img);
-//    waitKey(20000);
+    Mat img=imread("../img.jpg");
+    cout << img.cols << endl;
+    if (img.empty()) {
+        cout << "Error" << endl;
+        return -1;
+    }
+    imshow("Solo va el nombre", img);
+    waitKey(20000);
     return 0;
 }
