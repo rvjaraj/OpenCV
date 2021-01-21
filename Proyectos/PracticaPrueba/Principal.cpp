@@ -26,77 +26,71 @@
 #include <opencv2/videoio/videoio.hpp>
 
 using namespace std;
-using namespace cv; // Espacio de nombres de OpenCV (Contiene funciones y definiciones de varios elementos de OpenCV)
+using namespace cv;
 
 
 int main(int argc, char *argv[]) {
-    // En OpenCV las imágenes a color se representan como BGR:
+    Mat imagen1 = imread("../1.png", COLOR_BGR2GRAY);
+    Mat imagen2 = imread("../2.png", COLOR_BGR2GRAY);
+    Mat imagenVacia = Mat::zeros(imagen1.size(), CV_8UC3);
 
-    // Leemos la imagen y la guardamos en una matriz llamada "imagen"
-    Mat imagen1 = imread("../img1.png");//, COLOR_BGR2GRAY);
-    Mat imagen2 = imread("../img2.png");//, COLOR_BGR2GRAY);
-    Mat imagenVacia = Mat::zeros(Size(779, 527), CV_8UC3);
-
-    cout << imagen1.cols << " | " << imagen2.cols << " | " << imagenVacia.cols << " | " << endl;
-    cout << imagen1.rows << " | " << imagen2.rows << " | " << imagenVacia.rows << " | " << endl;
     namedWindow("IMG1", WINDOW_AUTOSIZE);
     namedWindow("IMG1", WINDOW_AUTOSIZE);
     namedWindow("NEW", WINDOW_AUTOSIZE);
 
     vector<Point> points;
-    //int c = 0, b = 0;
-    for (int i = 0; i < imagenVacia.rows; i++) {
-        for (int j = 0; j < imagenVacia.cols; j++) {
-            if (!(imagen1.at<Vec3b>(i, j) != imagen2.at<Vec3b>(i, j))) continue;
-            points.emplace_back(j, i);
-        }
-    }
+    Point point;
     int xmenor = -1, xmayor = imagenVacia.rows * imagenVacia.cols;
     int ymenor = -1, ymayor = imagenVacia.rows * imagenVacia.cols;
+    int p_ini = -1;
+    int a = 0, b = 0;
+    for (int i = 0; i < imagenVacia.rows; i++) {
+        for (int j = 0; j < imagenVacia.cols; j++) {
 
-    for (auto &point : points) {
-        imagenVacia.at<Vec3b>(point) = Vec3b(255, 255, 255);
-        if (xmenor < point.x) {
-            xmenor = point.x;
-        }
-        if (ymenor < point.y) {
-            ymenor = point.y;
-        }
-        if (xmayor > point.x) {
-            xmayor = point.x;
-        }
-        if (ymayor > point.y) {
-            ymayor = point.y;
+            imagenVacia.at<Vec3b>(i, j) = Vec3b(255, 255, 255);
+            if ((imagen1.at<Vec3b>(i, j) != imagen2.at<Vec3b>(i, j))) {
+                a = a + 1;
+                point = Point(j, i);
+                imagenVacia.at<Vec3b>(point) = imagen2.at<Vec3b>(point);
+                if (xmenor < point.x) {
+                    xmenor = point.x;
+                }
+                if (ymenor < point.y) {
+                    ymenor = point.y;
+                }
+                if (xmayor > point.x) {
+                    xmayor = point.x;
+                }
+                if (ymayor > point.y) {
+                    ymayor = point.y;
+                }
+                if (p_ini == -1) {
+                    p_ini = point.x;
+                }
+            } else {
+                b = b + 1;
+            }
         }
     }
-    circle(imagenVacia, Point(xmenor, ymenor), 32.0, Scalar(0, 0, 255), 1, 8);
-    circle(imagenVacia, Point(xmayor, ymenor), 32.0, Scalar(0, 0, 255), 1, 8);
-    circle(imagenVacia, Point(points[0].x, ymayor), 32.0, Scalar(0, 0, 255), 1, 8);
-
-    cout << Point(xmenor, ymenor) << endl;
-    cout << Point(xmayor, ymenor) << endl;
-    cout << Point(points[0].x, ymayor) << endl;
+    cout << a << " | " << b;
 
     vector<Point> pointsr;
-
-
-    pointsr.push_back(Point(points[0].x , ymayor ));
-    pointsr.push_back(Point(xmenor, ymenor));
-    pointsr.push_back(Point(xmayor, ymenor));
+    pointsr.emplace_back(p_ini, ymayor);
+    pointsr.emplace_back(xmenor, ymenor);
+    pointsr.emplace_back(xmayor, ymenor);
 
     Mat mask = Mat::zeros(imagenVacia.size(), CV_8UC1);
     fillConvexPoly(mask, pointsr, Scalar(255));
-
     Rect rect = boundingRect(pointsr);
+
     Mat roi = imagenVacia(rect).clone();
+
     mask = mask(rect).clone();
-
-
     Mat srcROI = imagen1(rect);
+
+
     roi.copyTo(srcROI, mask);
 
-
-    cout << xmenor << " | " << ymenor << endl;
     imshow("IMG1", imagen1);
     imshow("IMG2", imagen2);
     imshow("NEW", imagenVacia);
