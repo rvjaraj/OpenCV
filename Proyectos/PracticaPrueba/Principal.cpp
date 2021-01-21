@@ -48,12 +48,55 @@ int main(int argc, char *argv[]) {
     for (int i = 0; i < imagenVacia.rows; i++) {
         for (int j = 0; j < imagenVacia.cols; j++) {
             if (!(imagen1.at<Vec3b>(i, j) != imagen2.at<Vec3b>(i, j))) continue;
-            points.emplace_back(j,i);
+            points.emplace_back(j, i);
         }
     }
+    int xmenor = -1, xmayor = imagenVacia.rows * imagenVacia.cols;
+    int ymenor = -1, ymayor = imagenVacia.rows * imagenVacia.cols;
+
     for (auto &point : points) {
-        imagenVacia.at<Vec3b>(point) = Vec3b(255,255,255);
+        imagenVacia.at<Vec3b>(point) = Vec3b(255, 255, 255);
+        if (xmenor < point.x) {
+            xmenor = point.x;
+        }
+        if (ymenor < point.y) {
+            ymenor = point.y;
+        }
+        if (xmayor > point.x) {
+            xmayor = point.x;
+        }
+        if (ymayor > point.y) {
+            ymayor = point.y;
+        }
     }
+    circle(imagenVacia, Point(xmenor, ymenor), 32.0, Scalar(0, 0, 255), 1, 8);
+    circle(imagenVacia, Point(xmayor, ymenor), 32.0, Scalar(0, 0, 255), 1, 8);
+    circle(imagenVacia, Point(points[0].x, ymayor), 32.0, Scalar(0, 0, 255), 1, 8);
+
+    cout << Point(xmenor, ymenor) << endl;
+    cout << Point(xmayor, ymenor) << endl;
+    cout << Point(points[0].x, ymayor) << endl;
+
+    vector<Point> pointsr;
+
+
+    pointsr.push_back(Point(points[0].x , ymayor ));
+    pointsr.push_back(Point(xmenor, ymenor));
+    pointsr.push_back(Point(xmayor, ymenor));
+
+    Mat mask = Mat::zeros(imagenVacia.size(), CV_8UC1);
+    fillConvexPoly(mask, pointsr, Scalar(255));
+
+    Rect rect = boundingRect(pointsr);
+    Mat roi = imagenVacia(rect).clone();
+    mask = mask(rect).clone();
+
+
+    Mat srcROI = imagen1(rect);
+    roi.copyTo(srcROI, mask);
+
+
+    cout << xmenor << " | " << ymenor << endl;
     imshow("IMG1", imagen1);
     imshow("IMG2", imagen2);
     imshow("NEW", imagenVacia);
