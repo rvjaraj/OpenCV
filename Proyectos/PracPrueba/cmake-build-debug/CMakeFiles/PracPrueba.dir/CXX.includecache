@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/PracticaPrueba/Principal.cpp
+C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/PracPrueba/Principal.cpp
 iostream
 -
 cstdlib
@@ -24,8 +24,6 @@ opencv2/highgui/highgui.hpp
 opencv2/video/video.hpp
 -
 opencv2/videoio/videoio.hpp
--
-CvPlot/cvplot.h
 -
 
 C:/openCV/mingw-build/install/include/opencv2/core.hpp
