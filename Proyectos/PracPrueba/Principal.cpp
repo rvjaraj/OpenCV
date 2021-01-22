@@ -31,22 +31,19 @@ using namespace cv;
 
 int main(int argc, char *argv[]) {
     Mat img = imread("../1.png", COLOR_BGR2GRAY);
-
     namedWindow("IMG1", WINDOW_AUTOSIZE);
-
-
-    for (double j = 0; j < img.cols; j =j+0.08) {
-        Point p1(j*30, (sin(j)*30)+img.rows / 2);
-        Point p2((j+0.08)*30, (sin((j+0.08))*30)+img.rows / 2);
-        line(img, p1,p2,Vec3b(1, 1, 1), 2);
-        Point p3(j*30, img.rows);
-        line(img, p1,p3,Vec3b(1, 1, 1), 2);
+    int _row = img.rows;
+    int _row2 = _row / 2;
+    for (double j = 0; j < img.cols; j = j + 0.08) {
+        Point p1(j * 30, (sin(j) * 30) + _row2);
+        Point p2((j + 0.08) * 30, (sin((j + 0.08)) * 30) + _row2);
+        line(img, p1, p2, Vec3b(1, 1, 1), 2);
+        Point p3(j * 30, _row);
+        line(img, p1, p3, Vec3b(1, 1, 1), 2);
 
     }
-
-
+    imwrite("../imgTransformada.png", img);
     imshow("IMG1", img);
-
     waitKey(0);
     destroyAllWindows();
 
