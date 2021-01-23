@@ -67,24 +67,13 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\vinic\Documents\IAII\OpenCV
+CMAKE_SOURCE_DIR = C:\Users\vinic\Documents\IAII\OpenCV\Test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\vinic\Documents\IAII\OpenCV\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\vinic\Documents\IAII\OpenCV\Test\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -97,11 +86,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vinic\Documents\IAII\OpenCV\cmake-build-debug\CMakeFiles C:\Users\vinic\Documents\IAII\OpenCV\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vinic\Documents\IAII\OpenCV\Test\cmake-build-debug\CMakeFiles C:\Users\vinic\Documents\IAII\OpenCV\Test\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vinic\Documents\IAII\OpenCV\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vinic\Documents\IAII\OpenCV\Test\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named OpenCV
+# Target rules for targets named Test
 
 # Build rule for target.
-OpenCV: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OpenCV
-.PHONY : OpenCV
+Test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test
+.PHONY : Test
 
 # fast build rule for target.
-OpenCV/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenCV.dir\build.make CMakeFiles/OpenCV.dir/build
-.PHONY : OpenCV/fast
+Test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
+.PHONY : Test/fast
 
 Fuente.obj: Fuente.cpp.obj
 
@@ -148,7 +148,7 @@ Fuente.obj: Fuente.cpp.obj
 
 # target to build an object file
 Fuente.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenCV.dir\build.make CMakeFiles/OpenCV.dir/Fuente.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Fuente.cpp.obj
 .PHONY : Fuente.cpp.obj
 
 Fuente.i: Fuente.cpp.i
@@ -157,7 +157,7 @@ Fuente.i: Fuente.cpp.i
 
 # target to preprocess a source file
 Fuente.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenCV.dir\build.make CMakeFiles/OpenCV.dir/Fuente.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Fuente.cpp.i
 .PHONY : Fuente.cpp.i
 
 Fuente.s: Fuente.cpp.s
@@ -166,7 +166,7 @@ Fuente.s: Fuente.cpp.s
 
 # target to generate assembly for a file
 Fuente.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenCV.dir\build.make CMakeFiles/OpenCV.dir/Fuente.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Fuente.cpp.s
 .PHONY : Fuente.cpp.s
 
 main.obj: main.cpp.obj
@@ -175,7 +175,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenCV.dir\build.make CMakeFiles/OpenCV.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -184,7 +184,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenCV.dir\build.make CMakeFiles/OpenCV.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -193,7 +193,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenCV.dir\build.make CMakeFiles/OpenCV.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -204,7 +204,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... OpenCV
+	@echo ... Test
 	@echo ... Fuente.obj
 	@echo ... Fuente.i
 	@echo ... Fuente.s

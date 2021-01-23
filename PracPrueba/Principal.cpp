@@ -35,9 +35,14 @@ int main(int argc, char *argv[]) {
     int _row = img.rows;
     int _row2 = _row / 2;
     for (double j = 0; j < img.cols; j = j + 0.08) {
+        //saco el punto en las columnas
         Point p1(j * 30, (sin(j) * 30) + _row2);
+        //Salo el punto 2 sumano el siguinete p
         Point p2((j + 0.08) * 30, (sin((j + 0.08)) * 30) + _row2);
+        //linea de grafico sel seno
         line(img, p1, p2, Vec3b(1, 1, 1), 2);
+
+        //linea desde el punto del ceno hasta el final de la img
         Point p3(j * 30, _row);
         line(img, p1, p3, Vec3b(1, 1, 1), 2);
 

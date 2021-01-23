@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\vinic\Documents\IAII\OpenCV
+CMAKE_SOURCE_DIR = C:\Users\vinic\Documents\IAII\OpenCV\Test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\vinic\Documents\IAII\OpenCV\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\vinic\Documents\IAII\OpenCV\Test\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OpenCV.dir/depend.make
@@ -79,30 +79,30 @@ include CMakeFiles/OpenCV.dir/flags.make
 CMakeFiles/OpenCV.dir/main.cpp.obj: CMakeFiles/OpenCV.dir/flags.make
 CMakeFiles/OpenCV.dir/main.cpp.obj: CMakeFiles/OpenCV.dir/includes_CXX.rsp
 CMakeFiles/OpenCV.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vinic\Documents\IAII\OpenCV\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenCV.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenCV.dir\main.cpp.obj -c C:\Users\vinic\Documents\IAII\OpenCV\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vinic\Documents\IAII\OpenCV\Test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenCV.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenCV.dir\main.cpp.obj -c C:\Users\vinic\Documents\IAII\OpenCV\Test\main.cpp
 
 CMakeFiles/OpenCV.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenCV.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vinic\Documents\IAII\OpenCV\main.cpp > CMakeFiles\OpenCV.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vinic\Documents\IAII\OpenCV\Test\main.cpp > CMakeFiles\OpenCV.dir\main.cpp.i
 
 CMakeFiles/OpenCV.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenCV.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vinic\Documents\IAII\OpenCV\main.cpp -o CMakeFiles\OpenCV.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vinic\Documents\IAII\OpenCV\Test\main.cpp -o CMakeFiles\OpenCV.dir\main.cpp.s
 
 CMakeFiles/OpenCV.dir/Fuente.cpp.obj: CMakeFiles/OpenCV.dir/flags.make
 CMakeFiles/OpenCV.dir/Fuente.cpp.obj: CMakeFiles/OpenCV.dir/includes_CXX.rsp
 CMakeFiles/OpenCV.dir/Fuente.cpp.obj: ../Fuente.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vinic\Documents\IAII\OpenCV\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenCV.dir/Fuente.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenCV.dir\Fuente.cpp.obj -c C:\Users\vinic\Documents\IAII\OpenCV\Fuente.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vinic\Documents\IAII\OpenCV\Test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenCV.dir/Fuente.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenCV.dir\Fuente.cpp.obj -c C:\Users\vinic\Documents\IAII\OpenCV\Test\Fuente.cpp
 
 CMakeFiles/OpenCV.dir/Fuente.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenCV.dir/Fuente.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vinic\Documents\IAII\OpenCV\Fuente.cpp > CMakeFiles\OpenCV.dir\Fuente.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vinic\Documents\IAII\OpenCV\Test\Fuente.cpp > CMakeFiles\OpenCV.dir\Fuente.cpp.i
 
 CMakeFiles/OpenCV.dir/Fuente.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenCV.dir/Fuente.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vinic\Documents\IAII\OpenCV\Fuente.cpp -o CMakeFiles\OpenCV.dir\Fuente.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vinic\Documents\IAII\OpenCV\Test\Fuente.cpp -o CMakeFiles\OpenCV.dir\Fuente.cpp.s
 
 # Object files for target OpenCV
 OpenCV_OBJECTS = \
@@ -123,7 +123,7 @@ OpenCV.exe: C:/openCV/mingw-build/install/x64/mingw/lib/libopencv_core451.dll.a
 OpenCV.exe: CMakeFiles/OpenCV.dir/linklibs.rsp
 OpenCV.exe: CMakeFiles/OpenCV.dir/objects1.rsp
 OpenCV.exe: CMakeFiles/OpenCV.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\vinic\Documents\IAII\OpenCV\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable OpenCV.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\vinic\Documents\IAII\OpenCV\Test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable OpenCV.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OpenCV.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -136,6 +136,6 @@ CMakeFiles/OpenCV.dir/clean:
 .PHONY : CMakeFiles/OpenCV.dir/clean
 
 CMakeFiles/OpenCV.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\vinic\Documents\IAII\OpenCV C:\Users\vinic\Documents\IAII\OpenCV C:\Users\vinic\Documents\IAII\OpenCV\cmake-build-debug C:\Users\vinic\Documents\IAII\OpenCV\cmake-build-debug C:\Users\vinic\Documents\IAII\OpenCV\cmake-build-debug\CMakeFiles\OpenCV.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\vinic\Documents\IAII\OpenCV\Test C:\Users\vinic\Documents\IAII\OpenCV\Test C:\Users\vinic\Documents\IAII\OpenCV\Test\cmake-build-debug C:\Users\vinic\Documents\IAII\OpenCV\Test\cmake-build-debug C:\Users\vinic\Documents\IAII\OpenCV\Test\cmake-build-debug\CMakeFiles\OpenCV.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/OpenCV.dir/depend
 
