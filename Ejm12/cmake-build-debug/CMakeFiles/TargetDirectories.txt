@@ -1,3 +1,3 @@
-C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm12/cmake-build-debug/CMakeFiles/Ejm12.dir
-C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm12/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/vinic/Documents/IAII/OpenCV/Ejm12/cmake-build-debug/CMakeFiles/Ejm12.dir
+C:/Users/vinic/Documents/IAII/OpenCV/Ejm12/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/vinic/Documents/IAII/OpenCV/Ejm12/cmake-build-debug/CMakeFiles/rebuild_cache.dir

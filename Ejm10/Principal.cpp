@@ -66,7 +66,7 @@ int main(int argc, char *argv[]){
     int x = 25;
     int *pX = &x;
     
-    createTrackbar("Kernel", "Original", &k, 37, functionTrackbar, (void *) pX);
+    createTrackbar("Kernel", "Original", &k,37, functionTrackbar, (void *) pX);
 
     imshow("Original", imagen);
     imshow("Mediana", imagenMediana);

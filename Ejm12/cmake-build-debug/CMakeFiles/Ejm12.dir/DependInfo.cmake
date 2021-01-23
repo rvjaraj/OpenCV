@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm12/Principal.cpp" "C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm12/cmake-build-debug/CMakeFiles/Ejm12.dir/Principal.cpp.obj"
+  "C:/Users/vinic/Documents/IAII/OpenCV/Ejm12/Principal.cpp" "C:/Users/vinic/Documents/IAII/OpenCV/Ejm12/cmake-build-debug/CMakeFiles/Ejm12.dir/Principal.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
