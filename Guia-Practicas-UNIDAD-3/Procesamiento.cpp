@@ -13,11 +13,15 @@ Procesamiento::Procesamiento(string n, Mat img, int p, bool t) {
     this->type = t;
 }
 
-void Procesamiento::tamanio_imagen() {
-    cout << this->image.size() << endl;
+Procesamiento::Procesamiento(string n) {
+    this->name = n;
 }
 
-Mat Procesamiento::sal() {
+void Procesamiento::tamanio_imagen() {
+    cout << this->name << endl;
+}
+
+Mat Procesamiento::sal_o_pimineta() {
     double t = (this->posicion < 10) ? stod("0.0" + to_string(this->posicion)) :
                stod("0." + to_string(this->posicion));
     t = (this->posicion == 100) ? 1 : t;
@@ -31,4 +35,20 @@ Mat Procesamiento::sal() {
         img_trat.at<uchar>(fila, col) = (this->type == 0) ? 255 : 0;
     }
     return img_trat;
+}
+
+Mat Procesamiento::to_gris(Mat img) {
+    Mat gris;
+    cvtColor(img, gris, COLOR_BGR2GRAY);
+    return gris;
+}
+
+Mat Procesamiento::median_brur(Mat im, int k) {
+    k = (k % 2 != 1) ? k - 1 : k;
+    k = (k < 1) ? 1 : k;
+
+    Mat img;
+    medianBlur(im, img, k);
+    return img;
+
 }

@@ -26,11 +26,15 @@ public:
 
     void tamanio_imagen();
 
-    Mat sal();
+    Mat sal_o_pimineta();
 
-    Mat pimienta(Mat, int);
+    Mat to_gris(Mat);
+
+    Mat median_brur(Mat, int);
 
     Procesamiento(string, Mat, int, bool);
+
+    Procesamiento(string);
 
 };
 
