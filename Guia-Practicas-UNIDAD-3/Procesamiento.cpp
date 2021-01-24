@@ -61,3 +61,21 @@ Mat Procesamiento::median_brur(Mat im, int k) {
     return img;
 
 }
+
+Mat Procesamiento::gxgy(Mat img) {
+    Mat gX, gY;
+    Mat gXAbs, gYAbs;
+    Mat sobelBordes;
+    Sobel(img, gX, CV_16S, 1, 0, 3);
+    Sobel(img, gY, CV_16S, 0, 1, 3);
+    convertScaleAbs(gX, gXAbs);
+    convertScaleAbs(gY, gYAbs);
+    addWeighted(gXAbs, 0.5, gYAbs, 0.5, 0, sobelBordes);
+    return sobelBordes;
+}
+
+Mat Procesamiento::canny(Mat img, int umbral, int radio) {
+    Mat can;
+    Canny(img, can, umbral, umbral * (double) radio, 3);
+    return can;
+}

@@ -34,6 +34,10 @@ public:
 
     Mat median_brur(Mat, int);
 
+    Mat gxgy(Mat);
+
+    Mat canny(Mat, int, int);
+
     Procesamiento(string, Mat, int, bool);
 
     Procesamiento(string);
