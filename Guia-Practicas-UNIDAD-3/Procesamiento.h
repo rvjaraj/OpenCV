@@ -26,9 +26,11 @@ public:
 
     void tamanio_imagen();
 
-    Mat sal_o_pimineta();
+    Mat sal_o_pimineta(Mat, int, bool);
 
     Mat to_gris(Mat);
+
+    Mat gaussian_blur(Mat, int);
 
     Mat median_brur(Mat, int);
 
