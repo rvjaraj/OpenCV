@@ -142,6 +142,33 @@ Guia-Practicas-UNIDAD-3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guia-Practicas-UNIDAD-3.dir\build.make CMakeFiles/Guia-Practicas-UNIDAD-3.dir/build
 .PHONY : Guia-Practicas-UNIDAD-3/fast
 
+Principal.obj: Principal.cpp.obj
+
+.PHONY : Principal.obj
+
+# target to build an object file
+Principal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guia-Practicas-UNIDAD-3.dir\build.make CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Principal.cpp.obj
+.PHONY : Principal.cpp.obj
+
+Principal.i: Principal.cpp.i
+
+.PHONY : Principal.i
+
+# target to preprocess a source file
+Principal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guia-Practicas-UNIDAD-3.dir\build.make CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Principal.cpp.i
+.PHONY : Principal.cpp.i
+
+Principal.s: Principal.cpp.s
+
+.PHONY : Principal.s
+
+# target to generate assembly for a file
+Principal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guia-Practicas-UNIDAD-3.dir\build.make CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Principal.cpp.s
+.PHONY : Principal.cpp.s
+
 Procesamiento.obj: Procesamiento.cpp.obj
 
 .PHONY : Procesamiento.obj
@@ -169,33 +196,6 @@ Procesamiento.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guia-Practicas-UNIDAD-3.dir\build.make CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Procesamiento.cpp.s
 .PHONY : Procesamiento.cpp.s
 
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guia-Practicas-UNIDAD-3.dir\build.make CMakeFiles/Guia-Practicas-UNIDAD-3.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guia-Practicas-UNIDAD-3.dir\build.make CMakeFiles/Guia-Practicas-UNIDAD-3.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guia-Practicas-UNIDAD-3.dir\build.make CMakeFiles/Guia-Practicas-UNIDAD-3.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -205,12 +205,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Guia-Practicas-UNIDAD-3
+	@echo ... Principal.obj
+	@echo ... Principal.i
+	@echo ... Principal.s
 	@echo ... Procesamiento.obj
 	@echo ... Procesamiento.i
 	@echo ... Procesamiento.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 .PHONY : help
 
 

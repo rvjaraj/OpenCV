@@ -76,19 +76,19 @@ include CMakeFiles/Guia-Practicas-UNIDAD-3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Guia-Practicas-UNIDAD-3.dir/flags.make
 
-CMakeFiles/Guia-Practicas-UNIDAD-3.dir/main.cpp.obj: CMakeFiles/Guia-Practicas-UNIDAD-3.dir/flags.make
-CMakeFiles/Guia-Practicas-UNIDAD-3.dir/main.cpp.obj: CMakeFiles/Guia-Practicas-UNIDAD-3.dir/includes_CXX.rsp
-CMakeFiles/Guia-Practicas-UNIDAD-3.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vinic\Documents\IAII\OpenCV\Guia-Practicas-UNIDAD-3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Guia-Practicas-UNIDAD-3.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Guia-Practicas-UNIDAD-3.dir\main.cpp.obj -c C:\Users\vinic\Documents\IAII\OpenCV\Guia-Practicas-UNIDAD-3\main.cpp
+CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Principal.cpp.obj: CMakeFiles/Guia-Practicas-UNIDAD-3.dir/flags.make
+CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Principal.cpp.obj: CMakeFiles/Guia-Practicas-UNIDAD-3.dir/includes_CXX.rsp
+CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Principal.cpp.obj: ../Principal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vinic\Documents\IAII\OpenCV\Guia-Practicas-UNIDAD-3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Principal.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Guia-Practicas-UNIDAD-3.dir\Principal.cpp.obj -c C:\Users\vinic\Documents\IAII\OpenCV\Guia-Practicas-UNIDAD-3\Principal.cpp
 
-CMakeFiles/Guia-Practicas-UNIDAD-3.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Guia-Practicas-UNIDAD-3.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vinic\Documents\IAII\OpenCV\Guia-Practicas-UNIDAD-3\main.cpp > CMakeFiles\Guia-Practicas-UNIDAD-3.dir\main.cpp.i
+CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Principal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Principal.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vinic\Documents\IAII\OpenCV\Guia-Practicas-UNIDAD-3\Principal.cpp > CMakeFiles\Guia-Practicas-UNIDAD-3.dir\Principal.cpp.i
 
-CMakeFiles/Guia-Practicas-UNIDAD-3.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Guia-Practicas-UNIDAD-3.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vinic\Documents\IAII\OpenCV\Guia-Practicas-UNIDAD-3\main.cpp -o CMakeFiles\Guia-Practicas-UNIDAD-3.dir\main.cpp.s
+CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Principal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Principal.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vinic\Documents\IAII\OpenCV\Guia-Practicas-UNIDAD-3\Principal.cpp -o CMakeFiles\Guia-Practicas-UNIDAD-3.dir\Principal.cpp.s
 
 CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Procesamiento.cpp.obj: CMakeFiles/Guia-Practicas-UNIDAD-3.dir/flags.make
 CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Procesamiento.cpp.obj: CMakeFiles/Guia-Practicas-UNIDAD-3.dir/includes_CXX.rsp
@@ -106,13 +106,13 @@ CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Procesamiento.cpp.s: cmake_force
 
 # Object files for target Guia-Practicas-UNIDAD-3
 Guia__Practicas__UNIDAD__3_OBJECTS = \
-"CMakeFiles/Guia-Practicas-UNIDAD-3.dir/main.cpp.obj" \
+"CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Principal.cpp.obj" \
 "CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Procesamiento.cpp.obj"
 
 # External object files for target Guia-Practicas-UNIDAD-3
 Guia__Practicas__UNIDAD__3_EXTERNAL_OBJECTS =
 
-Guia-Practicas-UNIDAD-3.exe: CMakeFiles/Guia-Practicas-UNIDAD-3.dir/main.cpp.obj
+Guia-Practicas-UNIDAD-3.exe: CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Principal.cpp.obj
 Guia-Practicas-UNIDAD-3.exe: CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Procesamiento.cpp.obj
 Guia-Practicas-UNIDAD-3.exe: CMakeFiles/Guia-Practicas-UNIDAD-3.dir/build.make
 Guia-Practicas-UNIDAD-3.exe: C:/openCV/mingw-build/install/x64/mingw/lib/libopencv_highgui451.dll.a

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Principal.cpp.obj"
   "CMakeFiles/Guia-Practicas-UNIDAD-3.dir/Procesamiento.cpp.obj"
-  "CMakeFiles/Guia-Practicas-UNIDAD-3.dir/main.cpp.obj"
   "Guia-Practicas-UNIDAD-3.exe"
   "Guia-Practicas-UNIDAD-3.exe.manifest"
   "Guia-Practicas-UNIDAD-3.pdb"

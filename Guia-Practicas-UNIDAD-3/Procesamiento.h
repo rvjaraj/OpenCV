@@ -16,13 +16,13 @@
 using namespace std;
 using namespace cv;
 
-
+/*
+ * @name: no necesaria
+ * Metodos de procesamiento de imagne
+ */
 class Procesamiento {
 public:
     String name;
-    Mat image;
-    int posicion;
-    bool type;
 
     void tamanio_imagen();
 
@@ -37,8 +37,6 @@ public:
     Mat gxgy(Mat);
 
     Mat canny(Mat, int, int);
-
-    Procesamiento(string, Mat, int, bool);
 
     Procesamiento(string);
 

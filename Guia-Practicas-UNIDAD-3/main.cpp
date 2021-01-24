@@ -27,17 +27,26 @@ int main(int argc, char *argv[]) {
         while (3 == 3) {
             video >> img;
             resize(img, img, Size(), 0.8, 0.8);
+            //Iniciamos clase
             Procesamiento procesamiento("");
-
+            //Convertmos imaagen a gris
             gris = procesamiento.to_gris(img);
+            //metodo con false para sal
             Mat sal = procesamiento.sal_o_pimineta(gris, val_sal, false);
+            //metodo con true para pimienta
             Mat pim = procesamiento.sal_o_pimineta(gris, val_pim, true);
+            //metodo de medain blue
             Mat media = procesamiento.median_brur(gris, val_med);
+            //Metodo de gaunciablur
             Mat gausi = procesamiento.gaussian_blur(gris, val_gau);
+            //Usamos suavizado medianblur para una mejor detecion de bordes
+            //bordes Sobel de x y y
             Mat gxgy = procesamiento.gxgy(media);
+            //bordes con canny
             Mat can = procesamiento.canny(media, umbral, radio);
 
             imshow("Original", img);
+            //agregamos las barras de estado
             createTrackbar("Sal", "Original", &val_sal, 100, functionTrackbar, nullptr);
             createTrackbar("Pimiento", "Original", &val_pim, 100, functionTrackbar, nullptr);
             createTrackbar("MedianBLur", "Original", &val_med, 100, functionTrackbar, nullptr);

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/vinic/Documents/IAII/OpenCV/Guia-Practicas-UNIDAD-3/Procesamiento.h
+C:/Users/vinic/Documents/IAII/OpenCV/Guia-Practicas-UNIDAD-3/Principal.cpp
 iostream
 -
 cstdlib
@@ -23,10 +23,6 @@ opencv2/video/video.hpp
 -
 opencv2/videoio/videoio.hpp
 -
-
-C:/Users/vinic/Documents/IAII/OpenCV/Guia-Practicas-UNIDAD-3/main.cpp
-Procesamiento.h
-C:/Users/vinic/Documents/IAII/OpenCV/Guia-Practicas-UNIDAD-3/Procesamiento.h
 
 C:/openCV/mingw-build/install/include/opencv2/core.hpp
 opencv2/core/cvdef.h
