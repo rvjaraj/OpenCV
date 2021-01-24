@@ -9,7 +9,7 @@ find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 #Fin
 #Proyecto y archivos
-add_executable(Guia-Practicas-UNIDAD-3 principal.cpp)
+add_executable(Guia-Practicas-UNIDAD-3 main.cpp Procesamiento.cpp Procesamiento.h)
 
 #Inico 2| cambiar nombre
 set(OpenCV_LIBS opencv_core opencv_imgproc opencv_highgui opencv_imgcodecs)

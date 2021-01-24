@@ -93,12 +93,12 @@ clean: CMakeFiles/Guia-Practicas-UNIDAD-3.dir/clean
 CMakeFiles/Guia-Practicas-UNIDAD-3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guia-Practicas-UNIDAD-3.dir\build.make CMakeFiles/Guia-Practicas-UNIDAD-3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Guia-Practicas-UNIDAD-3.dir\build.make CMakeFiles/Guia-Practicas-UNIDAD-3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vinic\Documents\IAII\OpenCV\Guia-Practicas-UNIDAD-3\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Guia-Practicas-UNIDAD-3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vinic\Documents\IAII\OpenCV\Guia-Practicas-UNIDAD-3\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Guia-Practicas-UNIDAD-3"
 .PHONY : CMakeFiles/Guia-Practicas-UNIDAD-3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Guia-Practicas-UNIDAD-3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vinic\Documents\IAII\OpenCV\Guia-Practicas-UNIDAD-3\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vinic\Documents\IAII\OpenCV\Guia-Practicas-UNIDAD-3\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Guia-Practicas-UNIDAD-3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vinic\Documents\IAII\OpenCV\Guia-Practicas-UNIDAD-3\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Guia-Practicas-UNIDAD-3.dir/rule

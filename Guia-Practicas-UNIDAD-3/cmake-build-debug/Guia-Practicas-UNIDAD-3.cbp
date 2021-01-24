@@ -84,7 +84,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/vinic/Documents/IAII/OpenCV/Guia-Practicas-UNIDAD-3/Principal.cpp">
+		<Unit filename="C:/Users/vinic/Documents/IAII/OpenCV/Guia-Practicas-UNIDAD-3/Procesamiento.cpp">
+			<Option target="Guia-Practicas-UNIDAD-3"/>
+		</Unit>
+		<Unit filename="C:/Users/vinic/Documents/IAII/OpenCV/Guia-Practicas-UNIDAD-3/Procesamiento.h">
+			<Option target="Guia-Practicas-UNIDAD-3"/>
+		</Unit>
+		<Unit filename="C:/Users/vinic/Documents/IAII/OpenCV/Guia-Practicas-UNIDAD-3/main.cpp">
 			<Option target="Guia-Practicas-UNIDAD-3"/>
 		</Unit>
 		<Unit filename="C:/Users/vinic/Documents/IAII/OpenCV/Guia-Practicas-UNIDAD-3/CMakeLists.txt">

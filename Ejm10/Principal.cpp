@@ -36,6 +36,7 @@ Mat imagenGaussiana;
 
 void functionTrackbar(int v, void *p){
 
+
     int *pX = (int *) p;
     cout << "Puntero: " << *pX << endl;
     
@@ -53,7 +54,7 @@ int main(int argc, char *argv[]){
     // En OpenCV las imágenes a color se representan como BGR:
     
     // Leemos la imagen y la guardamos en una matriz llamada "imagen"
-    imagen = imread("../Catedral-San-Basilio.png");//, IMREAD_GRAYSCALE);
+    imagen = imread("../Catedral-San-Basilio.png", IMREAD_GRAYSCALE);
     resize(imagen, imagen, Size(), 0.5, 0.5);
     
     medianBlur(imagen, imagenMediana, k);
@@ -76,29 +77,29 @@ int main(int argc, char *argv[]){
     
     destroyAllWindows();  
     
-    VideoCapture video("../OneMinute.mkv");
-    //VideoCapture video(0);
-    if(video.isOpened()){
-        Mat frame;
-        Mat frameHSV;
-        
-        namedWindow("Frame", WINDOW_AUTOSIZE);
-        namedWindow("HSV", WINDOW_AUTOSIZE);
-        
-        while(3==3){
-            video >> frame;
-            resize(frame, frame, Size(), 0.5, 0.5);
-            cvtColor(frame, frameHSV, COLOR_BGR2HSV);
-            
-            imshow("Frame", frame);
-            imshow("HSV", frameHSV);
-            
-            if(waitKey(23)==27)
-                break;
-        }
-        
-        destroyAllWindows();  
-    }
+//    VideoCapture video("../OneMinute.mkv");
+//    //VideoCapture video(0);
+//    if(video.isOpened()){
+//        Mat frame;
+//        Mat frameHSV;
+//
+//        namedWindow("Frame", WINDOW_AUTOSIZE);
+//        namedWindow("HSV", WINDOW_AUTOSIZE);
+//
+//        while(3==3){
+//            video >> frame;
+//            resize(frame, frame, Size(), 0.5, 0.5);
+//            cvtColor(frame, frameHSV, COLOR_BGR2HSV);
+//
+//            imshow("Frame", frame);
+//            imshow("HSV", frameHSV);
+//
+//            if(waitKey(23)==27)
+//                break;
+//        }
+//
+//        destroyAllWindows();
+//    }
 
     
     return 0;
