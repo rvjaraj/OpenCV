@@ -1,3 +1,3 @@
-C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/PracticaPrueba/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/PracticaPrueba/cmake-build-debug/CMakeFiles/PracticaPrueba.dir
-C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/PracticaPrueba/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/vinic/Documents/IAII/OpenCV/PracticaPrueba/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/vinic/Documents/IAII/OpenCV/PracticaPrueba/cmake-build-debug/CMakeFiles/PracticaPrueba.dir
+C:/Users/vinic/Documents/IAII/OpenCV/PracticaPrueba/cmake-build-debug/CMakeFiles/edit_cache.dir
