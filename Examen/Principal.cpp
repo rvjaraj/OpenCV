@@ -19,9 +19,8 @@ int *historgrama(Mat imagen) {
     Vec3b pixel;
     for (int i = 0; i < imagen.rows; i++) {
         for (int j = 0; j < imagen.cols; j++) {
-            pixel = imagen.at<Vec3b>(i, j);
             //Solo tomanos el pixel 2 por el color rojo
-            histo[pixel[2]]++;
+            histo[imagen.at<Vec3b>(i, j)[2]]++;
         }
     }
 
@@ -33,11 +32,10 @@ int *historgrama(Mat imagen) {
  */
 double euclidea(int *m1, int *m2) {
     double suma = 0.0;
-    for (int i = 0; i < 7; i++) {
+    for (int i = 0; i < 256; i++) {
         suma += (m1[i] - m2[i]) * (m1[i] - m2[i]);
     }
-    double res = sqrt(suma);
-    return res;
+    return sqrt(suma);
 }
 
 
@@ -61,18 +59,21 @@ int main(int argc, char *argv[]) {
     double menor = 999 * 999 + 0.99;
     string numero;
     string nombre = "../CORPUS-IMAGENES-1/image_00";
-    for (int i = 1; i < 57; i++) {
+    for (int i = 0; i < 56; i++) {
         if (i % 2 == 0) {
-            imagen1 = imread(lista_imagnes[i - 1]);
-            imagen2 = imread(lista_imagnes[i]);
+            imagen1 = imread(lista_imagnes[i]);
+            imagen2 = imread(lista_imagnes[i + 1]);
             his1 = historgrama(imagen1);
             his2 = historgrama(imagen2);
-            distancia = euclidea(his1, his2);
-            menor = distancia < menor ? distancia : menor;
-            //cout << lista_imagnes[i - 1] << "  |  " << lista_imagnes[i] << "Distancia: " << distancia << endl;
+            distancia = (double) euclidea(his1, his2);
+            if (distancia < menor){
+                menor = distancia;
+            }
+
+            cout << lista_imagnes[i] << "  |  " << lista_imagnes[i + 1] << " Distancia: " << distancia << endl;
         }
     }
-    cout << "Parte 1: Distancia" << menor << endl;
+    cout << "Parte 1: Distancia: " << menor << endl;
     /*
      * Fin Parte 1
      *
