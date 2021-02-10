@@ -47,6 +47,7 @@ int main(int argc, char *argv[]) {
         namedWindow("ROI", WINDOW_AUTOSIZE);
         namedWindow("ROI_GRAY", WINDOW_AUTOSIZE);
         namedWindow("RESTA", WINDOW_AUTOSIZE);
+        namedWindow("TH", WINDOW_AUTOSIZE);
 
         Mat bg;
         Mat ROI;
@@ -56,6 +57,9 @@ int main(int argc, char *argv[]) {
         Mat frame;
         Mat dif;
         Mat th;
+        vector<vector<Point> > contours;
+        RNG rng(12345);
+
         int pixel = 0;
 
         while (3 == 3) {
@@ -78,9 +82,19 @@ int main(int argc, char *argv[]) {
                 bgROI = bg(rect).clone();
                 absdiff(grayROI, bgROI, dif);
                 threshold(dif,th,30,255,THRESH_BINARY);
+                medianBlur(th, th, 7);
+                findContours(th,contours,RETR_EXTERNAL, CHAIN_APPROX_SIMPLE);
+                Mat drawing = Mat::zeros( ROI.size(), CV_8UC3 );
+                for( size_t i = 0; i< contours.size(); i++ )
+                {
+                    Scalar color = Scalar( rng.uniform(0, 256), rng.uniform(0,256), rng.uniform(0,256) );
+                    drawContours( drawing, contours, (int)i, color, 2, LINE_8 );
+                }
+                imshow( "Contours", drawing );
                 imshow("ROI", ROI);
                 imshow("ROI_GRAY", grayROI);
-                imshow("RESTA", th);
+                imshow("RESTA", dif);
+                imshow("TH", th);
             }
 
 
