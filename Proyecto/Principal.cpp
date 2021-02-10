@@ -89,9 +89,9 @@ int main(int argc, char *argv[]) {
                     drawContours(ROI, contours, (int) i, color, 2, LINE_8);
                 }
                 imshow("ROI", ROI);
-//                imshow("ROI_GRAY", grayROI);
-//                imshow("RESTA", dif);
-//                imshow("TH", th);
+                imshow("ROI_GRAY", grayROI);
+                imshow("RESTA", dif);
+                imshow("TH", th);
             }
 
 
