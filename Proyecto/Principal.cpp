@@ -42,12 +42,12 @@ int main(int argc, char *argv[]) {
     //VideoCapture video("../video.mp4");
 
     if (video.isOpened()) {
-        namedWindow("Frame", WINDOW_AUTOSIZE);
-        namedWindow("BG", WINDOW_AUTOSIZE);
-        namedWindow("ROI", WINDOW_AUTOSIZE);
-        namedWindow("ROI_GRAY", WINDOW_AUTOSIZE);
-        namedWindow("RESTA", WINDOW_AUTOSIZE);
-        namedWindow("TH", WINDOW_AUTOSIZE);
+//        namedWindow("Frame", WINDOW_AUTOSIZE);
+//        namedWindow("BG", WINDOW_AUTOSIZE);
+//        namedWindow("ROI", WINDOW_AUTOSIZE);
+//        namedWindow("ROI_GRAY", WINDOW_AUTOSIZE);
+//        namedWindow("RESTA", WINDOW_AUTOSIZE);
+//        namedWindow("TH", WINDOW_AUTOSIZE);
 
         Mat bg;
         Mat ROI;
@@ -81,20 +81,17 @@ int main(int argc, char *argv[]) {
                 cvtColor(ROI, grayROI, COLOR_BGR2GRAY);
                 bgROI = bg(rect).clone();
                 absdiff(grayROI, bgROI, dif);
-                threshold(dif,th,30,255,THRESH_BINARY);
+                threshold(dif, th, 30, 255, THRESH_BINARY);
                 medianBlur(th, th, 7);
-                findContours(th,contours,RETR_EXTERNAL, CHAIN_APPROX_SIMPLE);
-                Mat drawing = Mat::zeros( ROI.size(), CV_8UC3 );
-                for( size_t i = 0; i< contours.size(); i++ )
-                {
-                    Scalar color = Scalar( rng.uniform(0, 256), rng.uniform(0,256), rng.uniform(0,256) );
-                    drawContours( drawing, contours, (int)i, color, 2, LINE_8 );
+                findContours(th, contours, RETR_EXTERNAL, CHAIN_APPROX_SIMPLE);
+                for (size_t i = 0; i < contours.size(); i++) {
+                    Scalar color = Scalar(50, 50, 200);
+                    drawContours(ROI, contours, (int) i, color, 2, LINE_8);
                 }
-                imshow( "Contours", drawing );
                 imshow("ROI", ROI);
-                imshow("ROI_GRAY", grayROI);
-                imshow("RESTA", dif);
-                imshow("TH", th);
+//                imshow("ROI_GRAY", grayROI);
+//                imshow("RESTA", dif);
+//                imshow("TH", th);
             }
 
 
