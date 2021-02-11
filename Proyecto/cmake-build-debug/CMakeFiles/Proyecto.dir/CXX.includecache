@@ -6,17 +6,33 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/Principal.cpp
-fstream
--
+C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/Procesamiento.cpp
+Procesamiento.h
+C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/Procesamiento.h
+
+C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/Procesamiento.h
 iostream
 -
 cstdlib
 -
-cmath
+opencv2/core/core.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/imgcodecs/imgcodecs.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/video/video.hpp
+-
+opencv2/videoio/videoio.hpp
 -
 opencv2/opencv.hpp
 -
+
+C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/main.cpp
+Procesamiento.h
+C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/Procesamiento.h
 
 C:/openCV/mingw-build/install/include/opencv2/calib3d.hpp
 opencv2/core.hpp
@@ -89,6 +105,10 @@ C:/openCV/mingw-build/install/include/opencv2/core/bufferpool.hpp
 C:/openCV/mingw-build/install/include/opencv2/core/check.hpp
 opencv2/core/base.hpp
 -
+
+C:/openCV/mingw-build/install/include/opencv2/core/core.hpp
+opencv2/core.hpp
+C:/openCV/mingw-build/install/include/opencv2/core/opencv2/core.hpp
 
 C:/openCV/mingw-build/install/include/opencv2/core/cuda.hpp
 opencv2/core.hpp
@@ -826,13 +846,25 @@ C:/openCV/mingw-build/install/include/opencv2/opencv2/imgcodecs.hpp
 opencv2/videoio.hpp
 C:/openCV/mingw-build/install/include/opencv2/opencv2/videoio.hpp
 
+C:/openCV/mingw-build/install/include/opencv2/highgui/highgui.hpp
+opencv2/highgui.hpp
+C:/openCV/mingw-build/install/include/opencv2/highgui/opencv2/highgui.hpp
+
 C:/openCV/mingw-build/install/include/opencv2/imgcodecs.hpp
 opencv2/core.hpp
 C:/openCV/mingw-build/install/include/opencv2/opencv2/core.hpp
 
+C:/openCV/mingw-build/install/include/opencv2/imgcodecs/imgcodecs.hpp
+opencv2/imgcodecs.hpp
+C:/openCV/mingw-build/install/include/opencv2/imgcodecs/opencv2/imgcodecs.hpp
+
 C:/openCV/mingw-build/install/include/opencv2/imgproc.hpp
 opencv2/core.hpp
 C:/openCV/mingw-build/install/include/opencv2/opencv2/core.hpp
+
+C:/openCV/mingw-build/install/include/opencv2/imgproc/imgproc.hpp
+opencv2/imgproc.hpp
+C:/openCV/mingw-build/install/include/opencv2/imgproc/opencv2/imgproc.hpp
 
 C:/openCV/mingw-build/install/include/opencv2/ml.hpp
 opencv2/core.hpp
@@ -1018,7 +1050,15 @@ C:/openCV/mingw-build/install/include/opencv2/video/opencv2/core.hpp
 opencv2/imgproc.hpp
 C:/openCV/mingw-build/install/include/opencv2/video/opencv2/imgproc.hpp
 
+C:/openCV/mingw-build/install/include/opencv2/video/video.hpp
+opencv2/video.hpp
+C:/openCV/mingw-build/install/include/opencv2/video/opencv2/video.hpp
+
 C:/openCV/mingw-build/install/include/opencv2/videoio.hpp
 opencv2/core.hpp
 C:/openCV/mingw-build/install/include/opencv2/opencv2/core.hpp
+
+C:/openCV/mingw-build/install/include/opencv2/videoio/videoio.hpp
+opencv2/videoio.hpp
+C:/openCV/mingw-build/install/include/opencv2/videoio/opencv2/videoio.hpp
 

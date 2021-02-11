@@ -15,6 +15,11 @@ Point b = Point(625, 299);
 int minH = 0, minS = 0, minV = 11;
 int maxH = 25, maxS = 255, maxV = 255;
 
+/*
+ * COdigo flata pasara a clases
+ * video en ingles de ley
+ *
+ */
 
 void trackBarEvent(int v, void *p) {
     threshold(catedral, imgThreshold, umbral, 255, THRESH_BINARY);
@@ -104,7 +109,6 @@ int main(int argc, char *argv[]) {
                 if (!contours.empty()) {
                     contours1.emplace_back(contours[index]);
                     drawContours(ROI, contours1, -1, (0, 0, 255), 2, LINE_AA);
-
                 }
                 for (auto &contour : contours1) {
                     M = moments(contour);
@@ -126,6 +130,7 @@ int main(int argc, char *argv[]) {
                         }
                     }
                     circle(ROI, yMin, 5, Vec3b(0, 0, 255), -1);
+
                     vector<vector<Point> > hull(contours1.size());
                     convexHull(contour, hull[0]);
                     drawContours(ROI, hull, 0, Vec3b(100, 100, 100), 2);
@@ -136,8 +141,8 @@ int main(int argc, char *argv[]) {
                     if (hull2[0].size() > 3) {
                         convexityDefects(contour, hull2[0], defects[0]);
                     }
-                    vector<Point> inicio;
-                    vector<Point> fin;
+
+
                     int dedos = 0;
                     for (const Vec4i &v : defects[0]) {
                         float depth = v[3] / 256;
@@ -158,7 +163,8 @@ int main(int argc, char *argv[]) {
                             angulo = (angulo) * (180.0 / 3.141592653589793238463);
                             int ang = (int) angulo;
 
-                            if (dis > 10 and v[4] > 50 and ang < 70) {
+                            //if (dis > 20 and v[4] > 50 and ang < 70) {
+                            if (dis > 20 and ang < 70) {
                                 inicio.push_back(ptStart);
                                 fin.push_back(ptEnd);
 
@@ -174,24 +180,30 @@ int main(int argc, char *argv[]) {
                             }
                         }
                     }
-                    if (inicio.empty() and norm(yMin - Point(x, y)) > 85) {
-                        putText(frame, "UN DEDO", a, 1, 4,
-                                Scalar(250, 150, 250), 3, LINE_AA);
+                    if (this->ptsinicio.empty() and norm(alto - centro) < 85) {
+                        putText(this->FRAME, "GESTO 0", incio, 1, 4, Scalar(250, 150, 250), 3, LINE_AA);
                     }
-                    if (inicio.size() == 1) {
-                        putText(frame, "DOS DEDOS", a, 1, 4,
+                    if (this->ptsinicio.empty() and norm(alto - centro) > 85) {
+                        putText(this->FRAME, "GESTO 1", incio, 1, 4, Scalar(250, 150, 250), 3, LINE_AA);
+                    }
+                    if (this->ptsinicio.size() == 1) {
+                        putText(this->FRAME, "GESTO 2", incio, 1, 4,
                                 Scalar(250, 150, 250), 2, LINE_AA);
                     }
-                    if (inicio.size() == 2) {
-                        putText(frame, "TRES DEDOS", a, 1, 4,
+                    if (this->ptsinicio.size() == 2) {
+                        putText(this->FRAME, "GESTO 3", incio, 1, 4,
                                 Scalar(250, 150, 250), 2, LINE_AA);
                     }
-                    if (inicio.size() == 3) {
-                        putText(frame, "CUATRO DEDOS", a, 1, 4,
+                    if (this->ptsinicio.size() == 3) {
+                        putText(this->FRAME, "GESTO 4", incio, 1, 4,
                                 Scalar(250, 150, 250), 2, LINE_AA);
                     }
-                    if (inicio.size() == 4) {
-                        putText(frame, "CINCO DEDOS", a, 1, 4,
+                    if (this->ptsinicio.size() == 4) {
+                        putText(this->FRAME, "GESTO 5", incio, 1, 4,
+                                Scalar(250, 150, 250), 2, LINE_AA);
+                    }
+                    if (this->ptsinicio.size() > 4) {
+                        putText(this->FRAME, ".....", incio, 1, 4,
                                 Scalar(250, 150, 250), 2, LINE_AA);
                     }
 
