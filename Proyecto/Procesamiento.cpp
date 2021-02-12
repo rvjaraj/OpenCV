@@ -146,7 +146,7 @@ void Procesamiento::graficarDefectos() {
                 double angulo = acos(((pow(a, 2)) + pow(b, 2) - pow(c, 2)) / (2 * a * b));
                 angulo = (angulo) * (180.0 / 3.141592653589793238463);
                 int ang = (int) angulo;
-                if (dis > 20 and ang < 70) {
+                if (dis > 20 and ang < 75) {
                     this->ptsinicio.push_back(ptStart);
                     this->ptsfin.push_back(ptEnd);
 
@@ -166,10 +166,10 @@ void Procesamiento::graficarDefectos() {
 }
 
 void Procesamiento::contarDedos() {
-    if (this->ptsinicio.empty() and norm(alto - centro) < 78) {
+    if (this->ptsinicio.empty() and norm(alto - centro) < 70 and norm(alto - centro) > 20) {
         putText(this->FRAME, "GESTO 0", incio, FONT_ITALIC, 2, Scalar(250, 150, 250), 3, LINE_AA);
     }
-    if (this->ptsinicio.empty() and norm(alto - centro) > 78) {
+    if (this->ptsinicio.empty() and norm(alto - centro) > 70) {
         putText(this->FRAME, "GESTO 1", incio, FONT_ITALIC, 2, Scalar(250, 150, 250), 3, LINE_AA);
     }
     if (this->ptsinicio.size() == 1) {

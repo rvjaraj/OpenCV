@@ -16,6 +16,7 @@ void click_mouse(int event, int x, int y, int flags, void *param) {
 int val_dil = 3;
 int val_save = 0;
 int val_est = 0;
+int val_tip = 0;
 
 void functionTrackbar(int v, void *p) {
 }
@@ -43,6 +44,8 @@ int main(int argc, char *argv[]) {
             procesamiento.graficarRectangulo();
             setMouseCallback("Frame", click_mouse, nullptr);
             if (!procesamiento.FONDO.empty()) {
+
+                createTrackbar("Tipo", "Frame", &val_tip, 1, functionSave, nullptr);
                 createTrackbar("Dilatacion", "Frame", &val_dil, 30, functionTrackbar, nullptr);
                 createTrackbar("GESTO", "Frame", &val_save, 5, functionSave, nullptr);
                 createTrackbar("Estado", "Frame", &val_est, 1, functionSave, nullptr);
@@ -59,8 +62,11 @@ int main(int argc, char *argv[]) {
                 procesamiento.graficarCasco();
                 procesamiento.calcularDefectos();
                 procesamiento.graficarDefectos();
-                //procesamiento.contarDedos();
-                procesamiento.detectarMomento(val_est);
+                if (val_tip == 0) {
+                    procesamiento.contarDedos();
+                } else {
+                    procesamiento.detectarMomento(val_est);
+                }
 
 
                 imshow("FONDO GRAY", procesamiento.FONDO);
