@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Proyecto.dir/Procesamiento.cpp.obj"
-  "CMakeFiles/Proyecto.dir/main.cpp.obj"
+  "CMakeFiles/Proyecto.dir/mai2.cpp.obj"
   "Proyecto.exe"
   "Proyecto.exe.manifest"
   "Proyecto.pdb"

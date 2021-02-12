@@ -169,32 +169,32 @@ Procesamiento.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/Procesamiento.cpp.s
 .PHONY : Procesamiento.cpp.s
 
-main.obj: main.cpp.obj
+mai2.obj: mai2.cpp.obj
 
-.PHONY : main.obj
+.PHONY : mai2.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+mai2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/mai2.cpp.obj
+.PHONY : mai2.cpp.obj
 
-main.i: main.cpp.i
+mai2.i: mai2.cpp.i
 
-.PHONY : main.i
+.PHONY : mai2.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/main.cpp.i
-.PHONY : main.cpp.i
+mai2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/mai2.cpp.i
+.PHONY : mai2.cpp.i
 
-main.s: main.cpp.s
+mai2.s: mai2.cpp.s
 
-.PHONY : main.s
+.PHONY : mai2.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/main.cpp.s
-.PHONY : main.cpp.s
+mai2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/mai2.cpp.s
+.PHONY : mai2.cpp.s
 
 # Help Target
 help:
@@ -208,9 +208,9 @@ help:
 	@echo ... Procesamiento.obj
 	@echo ... Procesamiento.i
 	@echo ... Procesamiento.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... mai2.obj
+	@echo ... mai2.i
+	@echo ... mai2.s
 .PHONY : help
 
 

@@ -166,10 +166,10 @@ void Procesamiento::graficarDefectos() {
 }
 
 void Procesamiento::contarDedos() {
-    if (this->ptsinicio.empty() and norm(alto - centro) < 85) {
+    if (this->ptsinicio.empty() and norm(alto - centro) < 78) {
         putText(this->FRAME, "GESTO 0", incio, FONT_ITALIC, 2, Scalar(250, 150, 250), 3, LINE_AA);
     }
-    if (this->ptsinicio.empty() and norm(alto - centro) > 85) {
+    if (this->ptsinicio.empty() and norm(alto - centro) > 78) {
         putText(this->FRAME, "GESTO 1", incio, FONT_ITALIC, 2, Scalar(250, 150, 250), 3, LINE_AA);
     }
     if (this->ptsinicio.size() == 1) {
@@ -190,6 +190,110 @@ void Procesamiento::contarDedos() {
     }
     if (this->ptsinicio.size() > 4) {
         putText(this->FRAME, ".....", incio, FONT_ITALIC, 2,
+                Scalar(250, 150, 250), 2, LINE_AA);
+    }
+}
+
+void Procesamiento::guardarMomentos(int val_save) {
+    double huMoments[7];
+    Moments momentos = moments(this->PROCESADA, true);
+    HuMoments(momentos, huMoments);
+    cout << "Gesto: " << val_save << endl;
+    for (int i = 0; i < 7; i++)
+        cout << huMoments[i] << ",";
+    cout << endl;
+    switch (val_save) {
+        case 0 :
+            HuMoments(momentos, this->huGesto0);
+            break;
+        case 1 :
+            HuMoments(momentos, this->huGesto1);
+            break;
+        case 2 :
+            HuMoments(momentos, this->huGesto2);
+            break;
+        case 3 :
+            HuMoments(momentos, this->huGesto3);
+            break;
+        case 4 :
+            HuMoments(momentos, this->huGesto4);
+            break;
+        case 5 :
+            HuMoments(momentos, this->huGesto5);
+            break;
+    }
+}
+
+double distancia(double m1[7], double m2[7]) {
+    double suma = 0.0;
+    for (int i = 0; i < 7; i++) {
+        suma += (m1[i] - m2[i]) * (m1[i] - m2[i]);
+    }
+    suma = sqrt(suma);
+    return suma;
+}
+
+void Procesamiento::detectarMomento(int val_save) {
+    if (val_save > 0) {
+        double huMoments[7];
+        Moments momentos = moments(this->PROCESADA, true);
+        HuMoments(momentos, huMoments);
+        double dist = 99 * 99 * 99;
+        double aux = 99 * 99 * 99;
+        int gest = -1;
+        for (int i = 0; i < 6; ++i) {
+            switch (i) {
+                case 0 :
+                    aux = distancia(huMoments, this->huGesto0);
+                    if (aux < dist) {
+                        dist = aux;
+                        gest = dist < 0.03 ? 0 : gest;
+                    }
+                    break;
+                case 1 :
+                    aux = distancia(huMoments, this->huGesto1);
+                    if (aux < dist) {
+                        dist = aux;
+                        gest = dist < 0.03 ? 1 : gest;
+                    }
+                    break;
+                case 2 :
+                    aux = distancia(huMoments, this->huGesto2);
+                    if (aux < dist) {
+                        dist = aux;
+                        gest = dist < 0.03 ? 2 : gest;
+                    }
+                    break;
+                case 3 :
+                    aux = distancia(huMoments, this->huGesto3);
+                    if (aux < dist) {
+                        dist = aux;
+                        gest = dist < 0.03 ? 3 : gest;
+                    }
+                    break;
+                case 4 :
+                    aux = distancia(huMoments, this->huGesto4);
+                    if (aux < dist) {
+                        dist = aux;
+                        gest = dist < 0.03 ? 4 : gest;
+                    }
+                    break;
+                case 5 :
+                    aux = distancia(huMoments, this->huGesto5);
+                    if (aux < dist) {
+                        dist = aux;
+                        gest = dist < 0.03 ? 5 : gest;
+                    }
+                    break;
+            }
+        }
+
+        //cout << "Distancia: " << dist << endl;
+
+        int cx = momentos.m10 / momentos.m00;
+        int cy = momentos.m01 / momentos.m00;
+        circle(this->ROI, Point(cx, cy), 7, Scalar(10, 10, 203), 3);
+        putText(this->FRAME, "GESTO " + std::to_string(gest), incio, FONT_ITALIC, 2,
                 Scalar(250, 150, 250), 2, LINE_AA);
     }
 }

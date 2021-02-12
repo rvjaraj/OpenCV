@@ -1,4 +1,4 @@
-The system is: Windows - 10.0.21292 - AMD64
+The system is: Windows - 10.0.21301 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: C:/MinGW/bin/gcc.exe 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/MinGW/bin/g++.exe 
@@ -23,39 +23,39 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is GNU, found in "C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/a.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_7d933/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7d933.dir\build.make CMakeFiles/cmTC_7d933.dir/build
-mingw32-make.exe[1]: Entering directory 'C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7d933.dir/testCCompiler.c.obj
-C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_7d933.dir\testCCompiler.c.obj   -c C:\Users\vinic\Documents\IAII\OpenCV\Proyectos\Ejm13\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
-Linking C executable cmTC_7d933.exe
-"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7d933.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_7d933.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_7d933.dir/objects.a @CMakeFiles\cmTC_7d933.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_7d933.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7d933.exe -Wl,--out-implib,libcmTC_7d933.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7d933.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_a70a4/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a70a4.dir\build.make CMakeFiles/cmTC_a70a4.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a70a4.dir/testCCompiler.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_a70a4.dir\testCCompiler.c.obj   -c C:\Users\vinic\Documents\IAII\OpenCV\Ejm13\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_a70a4.exe
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a70a4.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_a70a4.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_a70a4.dir/objects.a @CMakeFiles\cmTC_a70a4.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_a70a4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a70a4.exe -Wl,--out-implib,libcmTC_a70a4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a70a4.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_f0193/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f0193.dir\build.make CMakeFiles/cmTC_f0193.dir/build
-mingw32-make.exe[1]: Entering directory 'C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f0193.dir/CMakeCCompilerABI.c.obj
-C:\MinGW\bin\gcc.exe   -v -o CMakeFiles\cmTC_f0193.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_f8651/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f8651.dir\build.make CMakeFiles/cmTC_f8651.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8651.dir/CMakeCCompilerABI.c.obj
+C:\MinGW\bin\gcc.exe   -v -o CMakeFiles\cmTC_f8651.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
 Reading specs from c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/specs
 COLLECT_GCC=C:\MinGW\bin\gcc.exe
 Target: i686-w64-mingw32
 Configured with: ../gcc-4.8.3/configure --prefix=/opt/windows_32 --with-sysroot=/opt/windows_32 --libdir=/opt/windows_32/lib --mandir=/opt/windows_32/man --infodir=/opt/windows_32/info --enable-shared --disable-bootstrap --disable-multilib --with-arch=pentium3 --enable-threads=posix --enable-languages=c,c++ --enable-checking=release --enable-libgomp --with-system-zlib --with-python-dir=/lib/python2.7/site-packages --disable-libunwind-exceptions --enable-__cxa_atexit --enable-libssp --with-gnu-ld --verbose --enable-java-home --with-java-home=/opt/windows_32/lib/jvm/jre --with-jvm-root-dir=/opt/windows_32/lib/jvm --with-jvm-jar-dir=/opt/windows_32/lib/jvm/jvm-exports --with-arch-directory=amd64 --with-antlr-jar='/home/adrien/projects/win-builds-1.5/slackware64-current/d/gcc/antlr-*.jar' --disable-java-awt --disable-gtktest --build=x86_64-slackware-linux --host=i686-w64-mingw32 --target=i686-w64-mingw32
 Thread model: posix
 gcc version 4.8.3 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f0193.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentium3'
- c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/cc1.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/ -D_REENTRANT -IC:/MinGW/include C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentium3 -auxbase-strip CMakeFiles\cmTC_f0193.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\vinic\AppData\Local\Temp\ccFRLjqM.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f8651.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentium3'
+ c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/cc1.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/ -D_REENTRANT -IC:/MinGW/include C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentium3 -auxbase-strip CMakeFiles\cmTC_f8651.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\vinic\AppData\Local\Temp\cc19po34.s
 GNU C (GCC) version 4.8.3 (i686-w64-mingw32)
 	compiled by GNU C version 4.8.3, GMP version 5.1.3, MPFR version 3.1.2, MPC version 0.8.2
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -75,17 +75,17 @@ GNU C (GCC) version 4.8.3 (i686-w64-mingw32)
 	compiled by GNU C version 4.8.3, GMP version 5.1.3, MPFR version 3.1.2, MPC version 0.8.2
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 831b46130873fca7a136b6856a9202af
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f0193.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentium3'
- c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_f0193.dir\CMakeCCompilerABI.c.obj C:\Users\vinic\AppData\Local\Temp\ccFRLjqM.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f8651.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentium3'
+ c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_f8651.dir\CMakeCCompilerABI.c.obj C:\Users\vinic\AppData\Local\Temp\cc19po34.s
 GNU assembler version 2.24 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.24
 COMPILER_PATH=c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/
 LIBRARY_PATH=c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib/;c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f0193.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentium3'
-Linking C executable cmTC_f0193.exe
-"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f0193.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_f0193.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_f0193.dir/objects.a @CMakeFiles\cmTC_f0193.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_f0193.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f0193.exe -Wl,--out-implib,libcmTC_f0193.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f8651.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentium3'
+Linking C executable cmTC_f8651.exe
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f8651.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_f8651.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_f8651.dir/objects.a @CMakeFiles\cmTC_f8651.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_f8651.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f8651.exe -Wl,--out-implib,libcmTC_f8651.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Reading specs from c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/specs
 COLLECT_GCC=C:\MinGW\bin\gcc.exe
 COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/lto-wrapper.exe
@@ -95,9 +95,9 @@ Thread model: posix
 gcc version 4.8.3 (GCC) 
 COMPILER_PATH=c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/
 LIBRARY_PATH=c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib/;c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0193.exe' '-mtune=generic' '-march=pentium3'
- c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_32 -m i386pe -Bdynamic -o cmTC_f0193.exe c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/crtbegin.o -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_f0193.dir/objects.a --no-whole-archive --out-implib libcmTC_f0193.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LC:/MinGW/lib -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/crtend.o
-mingw32-make.exe[1]: Leaving directory 'C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f8651.exe' '-mtune=generic' '-march=pentium3'
+ c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_32 -m i386pe -Bdynamic -o cmTC_f8651.exe c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/crtbegin.o -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_f8651.dir/objects.a --no-whole-archive --out-implib libcmTC_f8651.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LC:/MinGW/lib -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/crtend.o
+mingw32-make.exe[1]: Leaving directory 'C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -118,20 +118,20 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_f0193/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f0193.dir\build.make CMakeFiles/cmTC_f0193.dir/build]
-  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_f0193.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [C:\MinGW\bin\gcc.exe   -v -o CMakeFiles\cmTC_f0193.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_f8651/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f8651.dir\build.make CMakeFiles/cmTC_f8651.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f8651.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\MinGW\bin\gcc.exe   -v -o CMakeFiles\cmTC_f8651.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"]
   ignore line: [Reading specs from c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/specs]
   ignore line: [COLLECT_GCC=C:\MinGW\bin\gcc.exe]
   ignore line: [Target: i686-w64-mingw32]
   ignore line: [Configured with: ../gcc-4.8.3/configure --prefix=/opt/windows_32 --with-sysroot=/opt/windows_32 --libdir=/opt/windows_32/lib --mandir=/opt/windows_32/man --infodir=/opt/windows_32/info --enable-shared --disable-bootstrap --disable-multilib --with-arch=pentium3 --enable-threads=posix --enable-languages=c,c++ --enable-checking=release --enable-libgomp --with-system-zlib --with-python-dir=/lib/python2.7/site-packages --disable-libunwind-exceptions --enable-__cxa_atexit --enable-libssp --with-gnu-ld --verbose --enable-java-home --with-java-home=/opt/windows_32/lib/jvm/jre --with-jvm-root-dir=/opt/windows_32/lib/jvm --with-jvm-jar-dir=/opt/windows_32/lib/jvm/jvm-exports --with-arch-directory=amd64 --with-antlr-jar='/home/adrien/projects/win-builds-1.5/slackware64-current/d/gcc/antlr-*.jar' --disable-java-awt --disable-gtktest --build=x86_64-slackware-linux --host=i686-w64-mingw32 --target=i686-w64-mingw32]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 4.8.3 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f0193.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentium3']
-  ignore line: [ c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/cc1.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/ -D_REENTRANT -IC:/MinGW/include C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentium3 -auxbase-strip CMakeFiles\cmTC_f0193.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\vinic\AppData\Local\Temp\ccFRLjqM.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f8651.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentium3']
+  ignore line: [ c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/cc1.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/ -D_REENTRANT -IC:/MinGW/include C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentium3 -auxbase-strip CMakeFiles\cmTC_f8651.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\vinic\AppData\Local\Temp\cc19po34.s]
   ignore line: [GNU C (GCC) version 4.8.3 (i686-w64-mingw32)]
   ignore line: [	compiled by GNU C version 4.8.3  GMP version 5.1.3  MPFR version 3.1.2  MPC version 0.8.2]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -151,8 +151,8 @@ Parsed C implicit link information from above output:
   ignore line: [	compiled by GNU C version 4.8.3  GMP version 5.1.3  MPFR version 3.1.2  MPC version 0.8.2]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 831b46130873fca7a136b6856a9202af]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f0193.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentium3']
-  ignore line: [ c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_f0193.dir\CMakeCCompilerABI.c.obj C:\Users\vinic\AppData\Local\Temp\ccFRLjqM.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f8651.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentium3']
+  ignore line: [ c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_f8651.dir\CMakeCCompilerABI.c.obj C:\Users\vinic\AppData\Local\Temp\cc19po34.s]
   ignore line: [GNU assembler version 2.24 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.24]
   ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/]
   ignore line: [c:/mingw/bin/../libexec/gcc/]
@@ -161,12 +161,12 @@ Parsed C implicit link information from above output:
   ignore line: [c:/mingw/bin/../lib/gcc/]
   ignore line: [c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib/]
   ignore line: [c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f0193.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentium3']
-  ignore line: [Linking C executable cmTC_f0193.exe]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f0193.dir\link.txt --verbose=1]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_f0193.dir/objects.a]
-  ignore line: [C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_f0193.dir/objects.a @CMakeFiles\cmTC_f0193.dir\objects1.rsp]
-  ignore line: [C:\MinGW\bin\gcc.exe     -v -Wl --whole-archive CMakeFiles\cmTC_f0193.dir/objects.a -Wl --no-whole-archive  -o cmTC_f0193.exe -Wl --out-implib libcmTC_f0193.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f8651.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentium3']
+  ignore line: [Linking C executable cmTC_f8651.exe]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f8651.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_f8651.dir/objects.a]
+  ignore line: [C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_f8651.dir/objects.a @CMakeFiles\cmTC_f8651.dir\objects1.rsp]
+  ignore line: [C:\MinGW\bin\gcc.exe     -v -Wl --whole-archive CMakeFiles\cmTC_f8651.dir/objects.a -Wl --no-whole-archive  -o cmTC_f8651.exe -Wl --out-implib libcmTC_f8651.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Reading specs from c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/specs]
   ignore line: [COLLECT_GCC=C:\MinGW\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/lto-wrapper.exe]
@@ -181,15 +181,15 @@ Parsed C implicit link information from above output:
   ignore line: [c:/mingw/bin/../lib/gcc/]
   ignore line: [c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib/]
   ignore line: [c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0193.exe' '-mtune=generic' '-march=pentium3']
-  link line: [ c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_32 -m i386pe -Bdynamic -o cmTC_f0193.exe c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/crtbegin.o -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_f0193.dir/objects.a --no-whole-archive --out-implib libcmTC_f0193.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LC:/MinGW/lib -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f8651.exe' '-mtune=generic' '-march=pentium3']
+  link line: [ c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_32 -m i386pe -Bdynamic -o cmTC_f8651.exe c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/crtbegin.o -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_f8651.dir/objects.a --no-whole-archive --out-implib libcmTC_f8651.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LC:/MinGW/lib -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/crtend.o]
     arg [c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/collect2.exe] ==> ignore
     arg [--sysroot=/opt/windows_32] ==> ignore
     arg [-m] ==> ignore
     arg [i386pe] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f0193.exe] ==> ignore
+    arg [cmTC_f8651.exe] ==> ignore
     arg [c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> ignore
     arg [c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/crtbegin.o] ==> ignore
     arg [-Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3] ==> dir [c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3]
@@ -197,10 +197,10 @@ Parsed C implicit link information from above output:
     arg [-Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib] ==> dir [c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib]
     arg [-Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_f0193.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_f8651.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_f0193.dll.a] ==> ignore
+    arg [libcmTC_f8651.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -239,36 +239,36 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_4660f/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4660f.dir\build.make CMakeFiles/cmTC_4660f.dir/build
-mingw32-make.exe[1]: Entering directory 'C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4660f.dir/testCXXCompiler.cxx.obj
-C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_4660f.dir\testCXXCompiler.cxx.obj -c C:\Users\vinic\Documents\IAII\OpenCV\Proyectos\Ejm13\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-Linking CXX executable cmTC_4660f.exe
-"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4660f.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_4660f.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_4660f.dir/objects.a @CMakeFiles\cmTC_4660f.dir\objects1.rsp
-C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_4660f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4660f.exe -Wl,--out-implib,libcmTC_4660f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4660f.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_8e294/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8e294.dir\build.make CMakeFiles/cmTC_8e294.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8e294.dir/testCXXCompiler.cxx.obj
+C:\MinGW\bin\g++.exe     -o CMakeFiles\cmTC_8e294.dir\testCXXCompiler.cxx.obj -c C:\Users\vinic\Documents\IAII\OpenCV\Ejm13\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_8e294.exe
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8e294.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_8e294.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_8e294.dir/objects.a @CMakeFiles\cmTC_8e294.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_8e294.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8e294.exe -Wl,--out-implib,libcmTC_8e294.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8e294.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_660af/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_660af.dir\build.make CMakeFiles/cmTC_660af.dir/build
-mingw32-make.exe[1]: Entering directory 'C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_660af.dir/CMakeCXXCompilerABI.cpp.obj
-C:\MinGW\bin\g++.exe    -v -o CMakeFiles\cmTC_660af.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_3d650/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3d650.dir\build.make CMakeFiles/cmTC_3d650.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d650.dir/CMakeCXXCompilerABI.cpp.obj
+C:\MinGW\bin\g++.exe    -v -o CMakeFiles\cmTC_3d650.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
 Reading specs from c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/specs
 COLLECT_GCC=C:\MinGW\bin\g++.exe
 Target: i686-w64-mingw32
 Configured with: ../gcc-4.8.3/configure --prefix=/opt/windows_32 --with-sysroot=/opt/windows_32 --libdir=/opt/windows_32/lib --mandir=/opt/windows_32/man --infodir=/opt/windows_32/info --enable-shared --disable-bootstrap --disable-multilib --with-arch=pentium3 --enable-threads=posix --enable-languages=c,c++ --enable-checking=release --enable-libgomp --with-system-zlib --with-python-dir=/lib/python2.7/site-packages --disable-libunwind-exceptions --enable-__cxa_atexit --enable-libssp --with-gnu-ld --verbose --enable-java-home --with-java-home=/opt/windows_32/lib/jvm/jre --with-jvm-root-dir=/opt/windows_32/lib/jvm --with-jvm-jar-dir=/opt/windows_32/lib/jvm/jvm-exports --with-arch-directory=amd64 --with-antlr-jar='/home/adrien/projects/win-builds-1.5/slackware64-current/d/gcc/antlr-*.jar' --disable-java-awt --disable-gtktest --build=x86_64-slackware-linux --host=i686-w64-mingw32 --target=i686-w64-mingw32
 Thread model: posix
 gcc version 4.8.3 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_660af.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentium3'
- c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/cc1plus.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/ -D_REENTRANT C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentium3 -auxbase-strip CMakeFiles\cmTC_660af.dir\CMakeCXXCompilerABI.cpp.obj -version -IC:/MinGW/include -o C:\Users\vinic\AppData\Local\Temp\ccg15QOf.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3d650.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentium3'
+ c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/cc1plus.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/ -D_REENTRANT C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentium3 -auxbase-strip CMakeFiles\cmTC_3d650.dir\CMakeCXXCompilerABI.cpp.obj -version -IC:/MinGW/include -o C:\Users\vinic\AppData\Local\Temp\ccq1nfkD.s
 GNU C++ (GCC) version 4.8.3 (i686-w64-mingw32)
 	compiled by GNU C version 4.8.3, GMP version 5.1.3, MPFR version 3.1.2, MPC version 0.8.2
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -294,17 +294,17 @@ GNU C++ (GCC) version 4.8.3 (i686-w64-mingw32)
 	compiled by GNU C version 4.8.3, GMP version 5.1.3, MPFR version 3.1.2, MPC version 0.8.2
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: c4fe4d0d4d1dfaca074c710f8d712c81
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_660af.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentium3'
- c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_660af.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\vinic\AppData\Local\Temp\ccg15QOf.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3d650.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentium3'
+ c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_3d650.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\vinic\AppData\Local\Temp\ccq1nfkD.s
 GNU assembler version 2.24 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.24
 COMPILER_PATH=c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/
 LIBRARY_PATH=c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib/;c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_660af.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentium3'
-Linking CXX executable cmTC_660af.exe
-"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_660af.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_660af.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_660af.dir/objects.a @CMakeFiles\cmTC_660af.dir\objects1.rsp
-C:\MinGW\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_660af.dir/objects.a -Wl,--no-whole-archive  -o cmTC_660af.exe -Wl,--out-implib,libcmTC_660af.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3d650.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentium3'
+Linking CXX executable cmTC_3d650.exe
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3d650.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_3d650.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_3d650.dir/objects.a @CMakeFiles\cmTC_3d650.dir\objects1.rsp
+C:\MinGW\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_3d650.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3d650.exe -Wl,--out-implib,libcmTC_3d650.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Reading specs from c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/specs
 COLLECT_GCC=C:\MinGW\bin\g++.exe
 COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/lto-wrapper.exe
@@ -314,9 +314,9 @@ Thread model: posix
 gcc version 4.8.3 (GCC) 
 COMPILER_PATH=c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/
 LIBRARY_PATH=c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib/;c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_660af.exe' '-shared-libgcc' '-mtune=generic' '-march=pentium3'
- c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_32 -m i386pe -Bdynamic -o cmTC_660af.exe c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/crtbegin.o -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_660af.dir/objects.a --no-whole-archive --out-implib libcmTC_660af.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LC:/MinGW/lib -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/crtend.o
-mingw32-make.exe[1]: Leaving directory 'C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3d650.exe' '-shared-libgcc' '-mtune=generic' '-march=pentium3'
+ c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_32 -m i386pe -Bdynamic -o cmTC_3d650.exe c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/crtbegin.o -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_3d650.dir/objects.a --no-whole-archive --out-implib libcmTC_3d650.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LC:/MinGW/lib -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/crtend.o
+mingw32-make.exe[1]: Leaving directory 'C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -343,20 +343,20 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_660af/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_660af.dir\build.make CMakeFiles/cmTC_660af.dir/build]
-  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_660af.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [C:\MinGW\bin\g++.exe    -v -o CMakeFiles\cmTC_660af.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_3d650/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3d650.dir\build.make CMakeFiles/cmTC_3d650.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_3d650.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\MinGW\bin\g++.exe    -v -o CMakeFiles\cmTC_3d650.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"]
   ignore line: [Reading specs from c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/specs]
   ignore line: [COLLECT_GCC=C:\MinGW\bin\g++.exe]
   ignore line: [Target: i686-w64-mingw32]
   ignore line: [Configured with: ../gcc-4.8.3/configure --prefix=/opt/windows_32 --with-sysroot=/opt/windows_32 --libdir=/opt/windows_32/lib --mandir=/opt/windows_32/man --infodir=/opt/windows_32/info --enable-shared --disable-bootstrap --disable-multilib --with-arch=pentium3 --enable-threads=posix --enable-languages=c,c++ --enable-checking=release --enable-libgomp --with-system-zlib --with-python-dir=/lib/python2.7/site-packages --disable-libunwind-exceptions --enable-__cxa_atexit --enable-libssp --with-gnu-ld --verbose --enable-java-home --with-java-home=/opt/windows_32/lib/jvm/jre --with-jvm-root-dir=/opt/windows_32/lib/jvm --with-jvm-jar-dir=/opt/windows_32/lib/jvm/jvm-exports --with-arch-directory=amd64 --with-antlr-jar='/home/adrien/projects/win-builds-1.5/slackware64-current/d/gcc/antlr-*.jar' --disable-java-awt --disable-gtktest --build=x86_64-slackware-linux --host=i686-w64-mingw32 --target=i686-w64-mingw32]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 4.8.3 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_660af.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentium3']
-  ignore line: [ c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/cc1plus.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/ -D_REENTRANT C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentium3 -auxbase-strip CMakeFiles\cmTC_660af.dir\CMakeCXXCompilerABI.cpp.obj -version -IC:/MinGW/include -o C:\Users\vinic\AppData\Local\Temp\ccg15QOf.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3d650.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentium3']
+  ignore line: [ c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/cc1plus.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/ -D_REENTRANT C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentium3 -auxbase-strip CMakeFiles\cmTC_3d650.dir\CMakeCXXCompilerABI.cpp.obj -version -IC:/MinGW/include -o C:\Users\vinic\AppData\Local\Temp\ccq1nfkD.s]
   ignore line: [GNU C++ (GCC) version 4.8.3 (i686-w64-mingw32)]
   ignore line: [	compiled by GNU C version 4.8.3  GMP version 5.1.3  MPFR version 3.1.2  MPC version 0.8.2]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -382,8 +382,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [	compiled by GNU C version 4.8.3  GMP version 5.1.3  MPFR version 3.1.2  MPC version 0.8.2]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: c4fe4d0d4d1dfaca074c710f8d712c81]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_660af.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentium3']
-  ignore line: [ c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_660af.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\vinic\AppData\Local\Temp\ccg15QOf.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3d650.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentium3']
+  ignore line: [ c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_3d650.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\vinic\AppData\Local\Temp\ccq1nfkD.s]
   ignore line: [GNU assembler version 2.24 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.24]
   ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/]
   ignore line: [c:/mingw/bin/../libexec/gcc/]
@@ -392,12 +392,12 @@ Parsed CXX implicit link information from above output:
   ignore line: [c:/mingw/bin/../lib/gcc/]
   ignore line: [c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib/]
   ignore line: [c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_660af.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentium3']
-  ignore line: [Linking CXX executable cmTC_660af.exe]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_660af.dir\link.txt --verbose=1]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_660af.dir/objects.a]
-  ignore line: [C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_660af.dir/objects.a @CMakeFiles\cmTC_660af.dir\objects1.rsp]
-  ignore line: [C:\MinGW\bin\g++.exe     -v -Wl --whole-archive CMakeFiles\cmTC_660af.dir/objects.a -Wl --no-whole-archive  -o cmTC_660af.exe -Wl --out-implib libcmTC_660af.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3d650.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=pentium3']
+  ignore line: [Linking CXX executable cmTC_3d650.exe]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3d650.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_3d650.dir/objects.a]
+  ignore line: [C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_3d650.dir/objects.a @CMakeFiles\cmTC_3d650.dir\objects1.rsp]
+  ignore line: [C:\MinGW\bin\g++.exe     -v -Wl --whole-archive CMakeFiles\cmTC_3d650.dir/objects.a -Wl --no-whole-archive  -o cmTC_3d650.exe -Wl --out-implib libcmTC_3d650.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Reading specs from c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/specs]
   ignore line: [COLLECT_GCC=C:\MinGW\bin\g++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/lto-wrapper.exe]
@@ -412,15 +412,15 @@ Parsed CXX implicit link information from above output:
   ignore line: [c:/mingw/bin/../lib/gcc/]
   ignore line: [c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib/]
   ignore line: [c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_660af.exe' '-shared-libgcc' '-mtune=generic' '-march=pentium3']
-  link line: [ c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_32 -m i386pe -Bdynamic -o cmTC_660af.exe c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/crtbegin.o -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_660af.dir/objects.a --no-whole-archive --out-implib libcmTC_660af.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LC:/MinGW/lib -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3d650.exe' '-shared-libgcc' '-mtune=generic' '-march=pentium3']
+  link line: [ c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_32 -m i386pe -Bdynamic -o cmTC_3d650.exe c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib/crt2.o c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/crtbegin.o -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib -Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_3d650.dir/objects.a --no-whole-archive --out-implib libcmTC_3d650.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LC:/MinGW/lib -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/crtend.o]
     arg [c:/mingw/bin/../libexec/gcc/i686-w64-mingw32/4.8.3/collect2.exe] ==> ignore
     arg [--sysroot=/opt/windows_32] ==> ignore
     arg [-m] ==> ignore
     arg [i386pe] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_660af.exe] ==> ignore
+    arg [cmTC_3d650.exe] ==> ignore
     arg [c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> ignore
     arg [c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/crtbegin.o] ==> ignore
     arg [-Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3] ==> dir [c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3]
@@ -428,10 +428,10 @@ Parsed CXX implicit link information from above output:
     arg [-Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib] ==> dir [c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib/../lib]
     arg [-Lc:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/lib]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_660af.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_3d650.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_660af.dll.a] ==> ignore
+    arg [libcmTC_3d650.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -471,18 +471,18 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
-Change Dir: C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_6a6fd/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6a6fd.dir\build.make CMakeFiles/cmTC_6a6fd.dir/build
-mingw32-make.exe[1]: Entering directory 'C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6a6fd.dir/feature_tests.cxx.obj
-C:\MinGW\bin\g++.exe    -std=c++1y -o CMakeFiles\cmTC_6a6fd.dir\feature_tests.cxx.obj -c C:\Users\vinic\Documents\IAII\OpenCV\Proyectos\Ejm13\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_6a6fd.exe
-"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6a6fd.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_6a6fd.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_6a6fd.dir/objects.a @CMakeFiles\cmTC_6a6fd.dir\objects1.rsp
-C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_6a6fd.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6a6fd.exe -Wl,--out-implib,libcmTC_6a6fd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6a6fd.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'C:/Users/vinic/Documents/IAII/OpenCV/Proyectos/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_31449/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_31449.dir\build.make CMakeFiles/cmTC_31449.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_31449.dir/feature_tests.cxx.obj
+C:\MinGW\bin\g++.exe    -std=c++1y -o CMakeFiles\cmTC_31449.dir\feature_tests.cxx.obj -c C:\Users\vinic\Documents\IAII\OpenCV\Ejm13\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_31449.exe
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_31449.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_31449.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_31449.dir/objects.a @CMakeFiles\cmTC_31449.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_31449.dir/objects.a -Wl,--no-whole-archive  -o cmTC_31449.exe -Wl,--out-implib,libcmTC_31449.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_31449.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/vinic/Documents/IAII/OpenCV/Ejm13/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 

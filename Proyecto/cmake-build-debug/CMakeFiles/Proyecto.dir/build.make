@@ -76,19 +76,19 @@ include CMakeFiles/Proyecto.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Proyecto.dir/flags.make
 
-CMakeFiles/Proyecto.dir/main.cpp.obj: CMakeFiles/Proyecto.dir/flags.make
-CMakeFiles/Proyecto.dir/main.cpp.obj: CMakeFiles/Proyecto.dir/includes_CXX.rsp
-CMakeFiles/Proyecto.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vinic\Documents\IAII\OpenCV\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Proyecto.dir\main.cpp.obj -c C:\Users\vinic\Documents\IAII\OpenCV\Proyecto\main.cpp
+CMakeFiles/Proyecto.dir/mai2.cpp.obj: CMakeFiles/Proyecto.dir/flags.make
+CMakeFiles/Proyecto.dir/mai2.cpp.obj: CMakeFiles/Proyecto.dir/includes_CXX.rsp
+CMakeFiles/Proyecto.dir/mai2.cpp.obj: ../mai2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vinic\Documents\IAII\OpenCV\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto.dir/mai2.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Proyecto.dir\mai2.cpp.obj -c C:\Users\vinic\Documents\IAII\OpenCV\Proyecto\mai2.cpp
 
-CMakeFiles/Proyecto.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vinic\Documents\IAII\OpenCV\Proyecto\main.cpp > CMakeFiles\Proyecto.dir\main.cpp.i
+CMakeFiles/Proyecto.dir/mai2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/mai2.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\vinic\Documents\IAII\OpenCV\Proyecto\mai2.cpp > CMakeFiles\Proyecto.dir\mai2.cpp.i
 
-CMakeFiles/Proyecto.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vinic\Documents\IAII\OpenCV\Proyecto\main.cpp -o CMakeFiles\Proyecto.dir\main.cpp.s
+CMakeFiles/Proyecto.dir/mai2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/mai2.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\vinic\Documents\IAII\OpenCV\Proyecto\mai2.cpp -o CMakeFiles\Proyecto.dir\mai2.cpp.s
 
 CMakeFiles/Proyecto.dir/Procesamiento.cpp.obj: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/Procesamiento.cpp.obj: CMakeFiles/Proyecto.dir/includes_CXX.rsp
@@ -106,13 +106,13 @@ CMakeFiles/Proyecto.dir/Procesamiento.cpp.s: cmake_force
 
 # Object files for target Proyecto
 Proyecto_OBJECTS = \
-"CMakeFiles/Proyecto.dir/main.cpp.obj" \
+"CMakeFiles/Proyecto.dir/mai2.cpp.obj" \
 "CMakeFiles/Proyecto.dir/Procesamiento.cpp.obj"
 
 # External object files for target Proyecto
 Proyecto_EXTERNAL_OBJECTS =
 
-Proyecto.exe: CMakeFiles/Proyecto.dir/main.cpp.obj
+Proyecto.exe: CMakeFiles/Proyecto.dir/mai2.cpp.obj
 Proyecto.exe: CMakeFiles/Proyecto.dir/Procesamiento.cpp.obj
 Proyecto.exe: CMakeFiles/Proyecto.dir/build.make
 Proyecto.exe: C:/openCV/mingw-build/install/x64/mingw/lib/libopencv_highgui451.dll.a

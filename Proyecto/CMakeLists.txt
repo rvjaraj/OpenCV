@@ -10,7 +10,8 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 #Fin
 #Proyecto y archivos
 #add_executable(Proyecto Procesamiento.cpp Procesamiento.h principal.cpp)
-add_executable(Proyecto main.cpp Procesamiento.cpp Procesamiento.h)
+#add_executable(Proyecto main.cpp Procesamiento.cpp Procesamiento.h)
+add_executable(Proyecto mai2.cpp Procesamiento.cpp Procesamiento.h)
 
 #Inico 2| cambiar nombre
 set(OpenCV_LIBS opencv_core opencv_imgproc opencv_highgui opencv_imgcodecs)
