@@ -49,14 +49,14 @@ int main(int argc, char *argv[]) {
                 procesamiento.obetenrMomentos();
                 procesamiento.graficarCentro();
 
-                procesamiento.cambiarTamanioVideo();
+//                procesamiento.cambiarTamanioVideo();
                 procesamiento.unirRecorte();
 
                 imshow("FONDO GRAY", procesamiento.FONDO);
                 imshow("ROI", procesamiento.ROI);
                 imshow("RESTA", procesamiento.RESTA);
                 imshow("PROCESADA", procesamiento.PROCESADA);
-                imshow("VIDEO", procesamiento.VIDEO);
+                imshow("VIDEO", procesamiento.TOTAL);
             }
 
             imshow("Frame", procesamiento.FRAME);
