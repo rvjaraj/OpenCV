@@ -88,7 +88,19 @@ void Procesamiento::graficarCentro() {
 
 }
 
+void Procesamiento::cambiarTamanioVideo() {
+    resize(this->VIDEO, this->VIDEO, this->PROCESADA.size());
+}
 
+void Procesamiento::unirRecorte() {
+    for (int y = 0; y < this->PROCESADA.rows; y++) {
+        for (int x = 0; x < this->PROCESADA.cols; x++) {
+            if (this->PROCESADA.at<Vec3b>(y, x) == Vec3b(255, 255, 255)) {
+                this->VIDEO.at<Vec3b>(y, x) = this->RESTA.at<Vec3b>(y, x);
+            }
+        }
+    }
+}
 
 void Procesamiento::guardarMomentos(int val_save) {
     double huMoments[7];

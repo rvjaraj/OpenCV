@@ -22,22 +22,24 @@ int main(int argc, char *argv[]) {
 
 
     Mat frame;
-    VideoCapture video(0);
+    VideoCapture camera(0);
+    VideoCapture video("../video.mp4");
     namedWindow("Frame", WINDOW_AUTOSIZE);
     namedWindow("FONDO GRAY", WINDOW_AUTOSIZE);
     namedWindow("ROI", WINDOW_AUTOSIZE);
     namedWindow("RESTA", WINDOW_AUTOSIZE);
     namedWindow("PROCESADA", WINDOW_AUTOSIZE);
+    namedWindow("VIDEO", WINDOW_AUTOSIZE);
 
-    if (video.isOpened()) {
+    if (camera.isOpened() and video.isOpened()) {
         while (3 == 3) {
-            video >> frame;
+            camera >> frame;
             procesamiento.FRAME = frame;
+            video >> frame;
+            procesamiento.VIDEO = frame;
             procesamiento.graficarRectangulo();
             setMouseCallback("Frame", click_mouse, nullptr);
             if (!procesamiento.FONDO.empty()) {
-//                createTrackbar("Dilatacion", "Frame", &val_dil, 30, functionTrackbar, nullptr);
-
                 procesamiento.cortarzonainteres();
                 procesamiento.restarfondo();
                 procesamiento.procesarimagen(val_dil);
@@ -47,10 +49,14 @@ int main(int argc, char *argv[]) {
                 procesamiento.obetenrMomentos();
                 procesamiento.graficarCentro();
 
+                procesamiento.cambiarTamanioVideo();
+                procesamiento.unirRecorte();
+
                 imshow("FONDO GRAY", procesamiento.FONDO);
                 imshow("ROI", procesamiento.ROI);
                 imshow("RESTA", procesamiento.RESTA);
                 imshow("PROCESADA", procesamiento.PROCESADA);
+                imshow("VIDEO", procesamiento.VIDEO);
             }
 
             imshow("Frame", procesamiento.FRAME);

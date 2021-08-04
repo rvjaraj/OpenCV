@@ -38,6 +38,7 @@ public:
     Mat ROI_GRAY;
     Mat RESTA;
     Mat PROCESADA;
+    Mat VIDEO;
 
     vector<vector<Point> > contours;
     vector<vector<Vec4i>> defectos;
@@ -73,9 +74,9 @@ public:
 
     void graficarCentro();
 
+    void cambiarTamanioVideo();
 
-
-
+    void unirRecorte();
 
 
     void guardarMomentos(int val_save);
