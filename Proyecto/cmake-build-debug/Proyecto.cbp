@@ -5,111 +5,215 @@
 		<Option title="Proyecto"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\openCV\;CMake Files\..\..\..\..\..\..\openCV\mingw-build\;CMake Files\..\..\..\..\..\..\openCV\mingw-build\install\;CMake Files\..\..\..\..\..\..\openCV\mingw-build\install\x64\;CMake Files\..\..\..\..\..\..\openCV\mingw-build\install\x64\mingw\;CMake Files\..\..\..\..\..\..\openCV\mingw-build\install\x64\mingw\lib\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\OpenCv\;CMake Files\..\..\..\OpenCv\build\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug"/>
+				<Option working_dir="/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Proyecto">
-				<Option output="C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Proyecto.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/openCV/mingw-build/install/include"/>
-					<Add directory="C:/MinGW/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/i686-w64-mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Proyecto/fast">
-				<Option output="C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Proyecto.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/openCV/mingw-build/install/include"/>
-					<Add directory="C:/MinGW/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/i686-w64-mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug"/>
+				<Option working_dir="/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Proyecto">
+				<Option output="/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Proyecto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ricardo/OpenCv/build"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/core/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/flann/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/imgproc/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/intensity_transform/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/ml/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/phase_unwrapping/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/photo/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/plot/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/quality/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/reg/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/surface_matching/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/xphoto/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/dnn/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/dnn_superres/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/features2d/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/freetype/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/fuzzy/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/hfs/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/img_hash/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/line_descriptor/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/saliency/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/text/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/videoio/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/wechat_qrcode/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/barcode/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/calib3d/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/datasets/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/highgui/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/mcc/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/objdetect/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/rapid/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/rgbd/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/shape/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/structured_light/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/ts/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/video/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/videostab/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/xfeatures2d/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/ximgproc/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/xobjdetect/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/aruco/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/bgsegm/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/bioinspired/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/ccalib/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/dnn_objdetect/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/dpm/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/face/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/gapi/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/optflow/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/stitching/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/superres/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/tracking/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/stereo/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Proyecto/fast">
+				<Option output="/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Proyecto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ricardo/OpenCv/build"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/core/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/flann/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/imgproc/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/intensity_transform/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/ml/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/phase_unwrapping/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/photo/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/plot/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/quality/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/reg/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/surface_matching/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/xphoto/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/dnn/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/dnn_superres/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/features2d/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/freetype/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/fuzzy/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/hfs/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/img_hash/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/line_descriptor/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/saliency/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/text/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/videoio/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/wechat_qrcode/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/barcode/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/calib3d/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/datasets/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/highgui/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/mcc/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/objdetect/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/rapid/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/rgbd/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/shape/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/structured_light/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/ts/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/video/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/videostab/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/xfeatures2d/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/ximgproc/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/xobjdetect/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/aruco/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/bgsegm/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/bioinspired/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/ccalib/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/dnn_objdetect/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/dpm/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/face/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/gapi/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/optflow/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv/modules/stitching/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/superres/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/tracking/include"/>
+					<Add directory="/home/ricardo/OpenCv/opencv_contrib/modules/stereo/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ricardo/Documentos/OpenCV/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/Procesamiento.cpp">
+		<Unit filename="/home/ricardo/Documentos/OpenCV/Proyecto/Procesamiento.cpp">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/Procesamiento.h">
+		<Unit filename="/home/ricardo/Documentos/OpenCV/Proyecto/Procesamiento.h">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/mai2.cpp">
+		<Unit filename="/home/ricardo/Documentos/OpenCV/Proyecto/main.cpp">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/CMakeLists.txt">
+		<Unit filename="/home/ricardo/Documentos/OpenCV/Proyecto/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/../../../../../../openCV/mingw-build/install/OpenCVConfig-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\openCV\mingw-build\install\"/>
+		<Unit filename="/home/ricardo/Documentos/OpenCV/Proyecto/../../../OpenCv/build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\OpenCv\build\"/>
 		</Unit>
-		<Unit filename="C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/../../../../../../openCV/mingw-build/install/OpenCVConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\openCV\mingw-build\install\"/>
+		<Unit filename="/home/ricardo/Documentos/OpenCV/Proyecto/../../../OpenCv/build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\OpenCv\build\"/>
 		</Unit>
-		<Unit filename="C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/../../../../../../openCV/mingw-build/install/x64/mingw/lib/OpenCVConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\openCV\mingw-build\install\x64\mingw\lib\"/>
-		</Unit>
-		<Unit filename="C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/../../../../../../openCV/mingw-build/install/x64/mingw/lib/OpenCVModules-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\openCV\mingw-build\install\x64\mingw\lib\"/>
-		</Unit>
-		<Unit filename="C:/Users/vinic/Documents/IAII/OpenCV/Proyecto/../../../../../../openCV/mingw-build/install/x64/mingw/lib/OpenCVModules.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\openCV\mingw-build\install\x64\mingw\lib\"/>
+		<Unit filename="/home/ricardo/Documentos/OpenCV/Proyecto/../../../OpenCv/build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\OpenCv\build\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

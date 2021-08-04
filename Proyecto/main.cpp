@@ -36,7 +36,7 @@ int main(int argc, char *argv[]) {
             procesamiento.graficarRectangulo();
             setMouseCallback("Frame", click_mouse, nullptr);
             if (!procesamiento.FONDO.empty()) {
-                createTrackbar("Dilatacion", "Frame", &val_dil, 30, functionTrackbar, nullptr);
+//                createTrackbar("Dilatacion", "Frame", &val_dil, 30, functionTrackbar, nullptr);
 
                 procesamiento.cortarzonainteres();
                 procesamiento.restarfondo();
