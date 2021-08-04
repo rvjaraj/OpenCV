@@ -22,13 +22,12 @@ void Procesamiento::cortarzonafondo() {
     cvtColor(this->FRAME, this->FONDO, COLOR_BGR2GRAY);
     this->FONDO = this->FONDO(rect).clone();
     this->ROI = this->FRAME(rect).clone();
-    this->TOTAL = this->FRAME(rect).clone();
 }
 
 void Procesamiento::cortarzonainteres() {
     Rect rect = boundingRect(this->pointRect);
     this->ROI = this->FRAME(rect).clone();
-    this->TOTAL = this->FRAME(rect).clone();
+    this->IMGORG = this->FRAME(rect).clone();
 }
 
 void Procesamiento::restarfondo() {
@@ -91,12 +90,15 @@ void Procesamiento::graficarCentro() {
 }
 
 void Procesamiento::unirRecorte() {
-    for (int y = 0; y < this->TOTAL.rows; y++) {
-        for (int x = 0; x < this->TOTAL.cols; x++) {
-            if (this->PROCESADA.at<Vec3b>(y, x) == Vec3b(255, 255, 255)) {
-                this->TOTAL.at<Vec3b>(y, x) = this->RESTA.at<Vec3b>(y, x);
-            }else{
-                this->TOTAL.at<Vec3b>(y, x) = this->VIDEO.at<Vec3b>(y, x);
+    vector<Point> point;
+    point.emplace_back(Point(0, 0));
+    point.emplace_back(Point(this->IMGORG.cols, this->IMGORG.rows));
+    Rect rect = boundingRect(point);
+    this->VIDEO = this->VIDEO(rect).clone();
+    for (int y = 0; y < this->IMGORG.rows; y++) {
+        for (int x = 0; x < this->IMGORG.cols; x++) {
+            if (this->PROCESADA.at<uchar>(y, x) > 225) {
+                this->VIDEO.at<Vec3b>(y, x) = this->IMGORG.at<Vec3b>(y, x);
             }
         }
     }

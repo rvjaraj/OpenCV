@@ -36,7 +36,7 @@ public:
     Mat RESTA;
     Mat PROCESADA;
     Mat VIDEO;
-    Mat TOTAL;
+    Mat IMGORG;
 
     vector<vector<Point> > contours;
 
@@ -64,8 +64,6 @@ public:
     void obetenrMomentos();
 
     void graficarCentro();
-
-    void cambiarTamanioVideo();
 
     void unirRecorte();
 
