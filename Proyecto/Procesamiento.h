@@ -24,7 +24,7 @@ using namespace cv;
 class Procesamiento {
 public:
     String name;
-    Point incio = Point(300, 13);
+    Point incio = Point(0, 0);
     Point fin = Point(625, 299);
     Point centro = Point(0, 0);
     vector<Point> pointRect;
@@ -53,7 +53,7 @@ public:
 
     void restarfondo();
 
-    void procesarimagen(int val_dil);
+    void procesarimagen(int val_dil, int val_thre);
 
     void buscarContornos();
 

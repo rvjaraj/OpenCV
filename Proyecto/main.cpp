@@ -6,6 +6,7 @@ void functionTrackbar(int v, void *p) {
 }
 
 int val_dil = 3;
+int val_thre = 30;
 
 int main(int argc, char *argv[]) {
     Mat frame;
@@ -28,7 +29,7 @@ int main(int argc, char *argv[]) {
             if (!procesamiento.FONDO.empty()) {
                 procesamiento.cortarzonainteres();
                 procesamiento.restarfondo();
-                procesamiento.procesarimagen(val_dil);
+                procesamiento.procesarimagen(val_dil, val_thre);
                 procesamiento.buscarContornos();
                 procesamiento.buscarContornoGrande();
                 procesamiento.graficarContorno();
@@ -46,6 +47,7 @@ int main(int argc, char *argv[]) {
             if (waitKey(12) == 97) {
                 procesamiento.cortarzonafondo();
                 createTrackbar("Dilatacion", "Frame", &val_dil, 30, functionTrackbar, nullptr);
+                createTrackbar("Threshold", "Frame", &val_thre, 100, functionTrackbar, nullptr);
             }
             if (waitKey(12) == 27)
                 break;

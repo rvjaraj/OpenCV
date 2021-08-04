@@ -39,8 +39,8 @@ void Procesamiento::restarfondo() {
     absdiff(this->ROI_GRAY, this->FONDO, this->RESTA);
 }
 
-void Procesamiento::procesarimagen(int val_dil) {
-    threshold(this->RESTA, this->PROCESADA, 30, 255, THRESH_BINARY);
+void Procesamiento::procesarimagen(int val_dil, int val_thre) {
+    threshold(this->RESTA, this->PROCESADA, val_thre, 255, THRESH_BINARY);
     medianBlur(this->PROCESADA, this->PROCESADA, 7);
     Mat element = getStructuringElement(MORPH_CROSS, //MORPH_RECT [] MORPH_CROSS + MORPH_ELLIPSE O
                                         Size(2 * val_dil + 1, 2 * val_dil + 1),
