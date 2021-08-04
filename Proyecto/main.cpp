@@ -2,25 +2,12 @@
 
 Procesamiento procesamiento("Proyecto Interciclo");
 
-void click_mouse(int event, int x, int y, int flags, void *param) {
-    if (event == EVENT_LBUTTONDBLCLK) {
-        procesamiento.incio = Point(x, y);
-        cout << procesamiento.incio << endl;
-    }
-    if (event == EVENT_RBUTTONDBLCLK) {
-        procesamiento.fin = Point(x, y);
-        cout << procesamiento.fin << endl;
-    }
-}
-
 void functionTrackbar(int v, void *p) {
 }
 
 int val_dil = 3;
 
 int main(int argc, char *argv[]) {
-
-
     Mat frame;
     VideoCapture camera(0);
     VideoCapture video("../video.mp4");
@@ -38,7 +25,6 @@ int main(int argc, char *argv[]) {
             video >> frame;
             procesamiento.VIDEO = frame;
             procesamiento.graficarRectangulo();
-            setMouseCallback("Frame", click_mouse, nullptr);
             if (!procesamiento.FONDO.empty()) {
                 procesamiento.cortarzonainteres();
                 procesamiento.restarfondo();
@@ -48,7 +34,6 @@ int main(int argc, char *argv[]) {
                 procesamiento.graficarContorno();
                 procesamiento.obetenrMomentos();
                 procesamiento.graficarCentro();
-
                 procesamiento.unirRecorte();
 
                 imshow("FONDO GRAY", procesamiento.FONDO);
@@ -57,13 +42,10 @@ int main(int argc, char *argv[]) {
                 imshow("PROCESADA", procesamiento.PROCESADA);
                 imshow("VIDEO", procesamiento.VIDEO);
             }
-
             imshow("Frame", procesamiento.FRAME);
-
             if (waitKey(12) == 97) {
                 procesamiento.cortarzonafondo();
             }
-
             if (waitKey(12) == 27)
                 break;
         }

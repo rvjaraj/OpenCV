@@ -7,14 +7,17 @@
 
 Procesamiento::Procesamiento(string name) {
     this->name = name;
+    this->incio = Point(0, 0);
     cout << this->name << endl;
 }
 
 void Procesamiento::graficarRectangulo() {
+    this->fin = Point(this->FRAME.cols -1 ,this->FRAME.rows -1);
     rectangle(this->FRAME, this->incio, this->fin, Vec3b(50, 50, 200), 1);
 }
 
 void Procesamiento::cortarzonafondo() {
+    this->fin = Point(this->FRAME.cols -1 ,this->FRAME.rows -1);
     this->pointRect.clear();
     this->pointRect.emplace_back(this->incio);
     this->pointRect.emplace_back(this->fin);
@@ -25,6 +28,7 @@ void Procesamiento::cortarzonafondo() {
 }
 
 void Procesamiento::cortarzonainteres() {
+    this->fin = Point(this->FRAME.cols -5 ,this->FRAME.rows -5);
     Rect rect = boundingRect(this->pointRect);
     this->ROI = this->FRAME(rect).clone();
     this->IMGORG = this->FRAME(rect).clone();
