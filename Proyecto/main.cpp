@@ -45,6 +45,7 @@ int main(int argc, char *argv[]) {
             imshow("Frame", procesamiento.FRAME);
             if (waitKey(12) == 97) {
                 procesamiento.cortarzonafondo();
+                createTrackbar("Dilatacion", "Frame", &val_dil, 30, functionTrackbar, nullptr);
             }
             if (waitKey(12) == 27)
                 break;
