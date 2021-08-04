@@ -73,15 +73,10 @@ public:
 
     void graficarCentro();
 
-    void graficarAlto();
 
-    void graficarCasco();
 
-    void calcularDefectos();
 
-    void graficarDefectos();
 
-    void contarDedos();
 
     void guardarMomentos(int val_save);
 

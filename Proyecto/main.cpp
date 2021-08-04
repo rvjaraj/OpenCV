@@ -46,11 +46,6 @@ int main(int argc, char *argv[]) {
                 procesamiento.graficarContorno();
                 procesamiento.obetenrMomentos();
                 procesamiento.graficarCentro();
-                procesamiento.graficarAlto();
-                procesamiento.graficarCasco();
-                procesamiento.calcularDefectos();
-                procesamiento.graficarDefectos();
-                procesamiento.contarDedos();
 
                 imshow("FONDO GRAY", procesamiento.FONDO);
                 imshow("ROI", procesamiento.ROI);
